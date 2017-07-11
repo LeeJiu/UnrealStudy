@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\HowTo_PlayerInput.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{34951297-1812-4D7B-90A2-1E38EF63EE3C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HowTo_PlayerInput.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\HowTo_PlayerInputEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{244B5625-C15F-47DA-A738-D772216CD32D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\HowTo_PlayerInput">
+			<UniqueIdentifier>{D6FC0B85-9DE5-436F-85B4-402121D866F2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HowTo_PlayerInput\HowTo_PlayerInput.Build.cs">
+			<Filter>Source\HowTo_PlayerInput</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\HowTo_PlayerInput\HowTo_PlayerInput.cpp">
+			<Filter>Source\HowTo_PlayerInput</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HowTo_PlayerInput\HowTo_PlayerInput.h">
+			<Filter>Source\HowTo_PlayerInput</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HowTo_PlayerInput\MyPawn.cpp">
+			<Filter>Source\HowTo_PlayerInput</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HowTo_PlayerInput\MyPawn.h">
+			<Filter>Source\HowTo_PlayerInput</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

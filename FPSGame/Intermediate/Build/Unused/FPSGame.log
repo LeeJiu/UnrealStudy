@@ -1,0 +1,13 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for FPSGameEditor
+    Running UnrealHeaderTool "D:\UnrealStudy\FPSGame\FPSGame.uproject" "D:\UnrealStudy\FPSGame\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSGameEditor in 6.1124688 seconds
+  Performing 4 actions (2 in parallel)
+  FPSGame.generated.cpp
+  FPSHUD.cpp
+  [3/4] Link UE4Editor-FPSGame-4893.dll
+  [4/4] Link UE4Editor-FPSGame-4893.lib
+     D:\UnrealStudy\FPSGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-4893.lib 라이브러리 및 D:\UnrealStudy\FPSGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-4893.exp 개체를 생성하고 있습니다.
+     D:\UnrealStudy\FPSGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-4893.suppressed.lib 라이브러리 및 D:\UnrealStudy\FPSGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-4893.suppressed.exp 개체를 생성하고 있습니다.
+  Deploying FPSGameEditor Win64 Development...
+  Total build time: 16.50 seconds (Local executor: 4.75 seconds)

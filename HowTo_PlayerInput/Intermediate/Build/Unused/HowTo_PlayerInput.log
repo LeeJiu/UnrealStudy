@@ -1,0 +1,20 @@
+﻿  Cleaning HowTo_PlayerInputEditor Binaries...
+  Compiling game modules for hot reload
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for HowTo_PlayerInputEditor
+    Running UnrealHeaderTool "D:\UnrealStudy\HowTo_PlayerInput\HowTo_PlayerInput.uproject" "D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\HowTo_PlayerInputEditor\Development\HowTo_PlayerInputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HowTo_PlayerInputEditor in 4.9825845 seconds
+  Performing 8 actions (2 in parallel)
+  [2/8] Resource ModuleVersionResource.rc.inl
+  SharedPCH.Engine.cpp
+  [3/8] Resource PCLaunch.rc
+  MyPawn.cpp
+  HowTo_PlayerInput.cpp
+  HowTo_PlayerInput.generated.cpp
+  [7/8] Link UE4Editor-HowTo_PlayerInput-1685.dll
+  [8/8] Link UE4Editor-HowTo_PlayerInput-1685.lib
+     D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1685.lib 라이브러리 및 D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1685.exp 개체를 생성하고 있습니다.
+     D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1685.suppressed.lib 라이브러리 및 D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1685.suppressed.exp 개체를 생성하고 있습니다.
+  Deploying HowTo_PlayerInputEditor Win64 Development...
+  Total build time: 15.38 seconds (Local executor: 5.55 seconds)

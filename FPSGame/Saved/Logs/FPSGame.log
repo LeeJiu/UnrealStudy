@@ -1,0 +1,1408 @@
+﻿Log file open, 07/11/17 15:52:58
+LogInit:Display: Running engine for game: FPSGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1838599251) SRandInit(-1838599250).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.100839
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.11-06.52.59:938][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-06.52.59:938][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.11-06.53.00:045][  0]LogInit: Computer: LEEJIU
+[2017.07.11-06.53.00:045][  0]LogInit: User: LEEJIU
+[2017.07.11-06.53.00:045][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.11-06.53.00:045][  0]LogInit: High frequency timer resolution =2.435883 MHz
+[2017.07.11-06.53.00:046][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.11-06.53.00:046][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.11-06.53.00:046][  0]LogMemory: Process Physical Memory: 272.90 MB used, 272.90 MB peak
+[2017.07.11-06.53.00:046][  0]LogMemory: Process Virtual Memory: 266.36 MB used, 266.36 MB peak
+[2017.07.11-06.53.00:046][  0]LogMemory: Physical Memory: 2760.56 MB used,  5338.84 MB free, 8099.39 MB total
+[2017.07.11-06.53.00:046][  0]LogMemory: Virtual Memory: 641.96 MB used,  5338.84 MB free, 134217728.00 MB total
+[2017.07.11-06.53.00:208][  0]LogInit: Using OS detected language (ko-KR).
+[2017.07.11-06.53.00:208][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.07.11-06.53.00:213][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.07.11-06.53.01:790][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.11-06.53.01:894][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 11_0)
+[2017.07.11-06.53.01:894][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.07.11-06.53.01:980][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2017.07.11-06.53.01:980][  0]LogD3D11RHI:       2000/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.07.11-06.53.01:987][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.11-06.53.01:987][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.11-06.53.01:987][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.07.11-06.53.01:999][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.11-06.53.01:999][  0]LogD3D11RHI:     GPU DeviceId: 0x124d (for the marketing name, search the web for "GPU Device Id")
+[2017.07.11-06.53.01:999][  0]LogWindows: EnumDisplayDevices:
+[2017.07.11-06.53.01:999][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2017.07.11-06.53.02:000][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:1)
+[2017.07.11-06.53.02:000][  0]LogWindows:    2. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2017.07.11-06.53.02:001][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.07.11-06.53.02:001][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2017.07.11-06.53.02:001][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.11-06.53.02:001][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.11-06.53.02:001][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.11-06.53.02:087][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.11-06.53.02:087][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.11-06.53.02:105][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.11-06.53.02:106][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (D:/UnrealStudy/FPSGame/Intermediate/Shaders/WorkingDirectory/9636/).
+[2017.07.11-06.53.02:106][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LEEJIU/AppData/Local/Temp/UnrealShaderWorkingDir/F36ADB2E49700B9A33415AA165CEC533/'.
+[2017.07.11-06.53.02:106][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.11-06.53.04:516][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.11-06.53.04:631][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.11-06.53.04:738][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.11-06.53.04:864][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.11-06.53.04:975][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.11-06.53.05:086][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.11-06.53.05:203][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.11-06.53.05:315][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.11-06.53.05:415][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.11-06.53.05:532][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.11-06.53.05:647][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.11-06.53.05:751][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.11-06.53.05:866][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.11-06.53.05:970][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.11-06.53.06:084][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.11-06.53.06:300][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.11-06.53.06:300][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.11-06.53.06:417][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.11-06.53.06:620][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.11-06.53.06:683][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.11-06.53.06:790][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.11-06.53.06:922][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.11-06.53.07:029][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.11-06.53.07:132][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.11-06.53.07:132][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.11-06.53.08:388][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.11-06.53.08:556][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-06.53.08:556][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.11-06.53.08:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealStudy/FPSGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.11-06.53.08:556][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.11-06.53.08:557][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealStudy/FPSGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.11-06.53.08:557][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.11-06.53.08:590][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.11-06.53.08:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LEEJIU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.11-06.53.08:623][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.11-06.53.08:624][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.11-06.53.08:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-06.53.08:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-06.53.10:127][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-06.53.10:271][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.11-06.53.10:652][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.11-06.53.10:741][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.11-06.53.10:872][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.11-06.53.10:872][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.11-06.53.10:872][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.11-06.53.12:136][  0]LogNetVersion: FPSGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 786042405)
+[2017.07.11-06.53.12:263][  0]LogAssetRegistry: FAssetRegistry took 0.0309 seconds to start up
+[2017.07.11-06.53.12:430][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.093265 seconds
+[2017.07.11-06.53.12:446][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.11-06.53.12:446][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.11-06.53.12:446][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.11-06.53.12:654][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.11-06.53.18:130][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.11-06.53.18:215][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.11-06.53.19:564][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.11-06.53.20:544][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.11-06.53.20:627][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.11-06.53.20:770][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.11-06.53.20:915][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.11-06.53.22:706][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.11-06.53.24:268][  0]LogEngine: Initializing Engine...
+[2017.07.11-06.53.24:269][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.11-06.53.24:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.11-06.53.24:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.11-06.53.25:043][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.11-06.53.25:055][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-06.53.25:077][  0]LogInit: FAudioDevice initialized.
+[2017.07.11-06.53.25:159][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-06.53.25:187][  0]LogInit: Texture streaming: Enabled
+[2017.07.11-06.53.25:439][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.11-06.53.25:993][  0]LogInit: Transaction tracking system initialized
+[2017.07.11-06.53.26:831][  0]BlueprintLog: New page: 에디터 로드
+[2017.07.11-06.53.29:183][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.07.11-06.53.30:849][  0]LogConsoleResponse:Display: 
+[2017.07.11-06.53.31:263][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.11-06.53.31:264][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.11-06.53.31:758][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/FPSGame/Content/' took 0.05s
+[2017.07.11-06.53.33:878][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.11-06.53.33:879][  0]Cmd: MAP LOAD FILE="D:/UnrealStudy/FPSGame/Content/FPSMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.11-06.53.33:879][  0]LogEditorServer:Warning: Can't find file 'D:/UnrealStudy/FPSGame/Content/FPSMap.umap'
+[2017.07.11-06.53.33:879][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.11-06.53.33:980][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 100.595ms.
+[2017.07.11-06.53.33:980][  0]LogFileHelpers: Loading map 'FPSMap' took 0.101
+[2017.07.11-06.53.34:147][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.07.11-06.53.34:446][  0]LogCollectionManager: Loaded 0 collections in 0.040899 seconds
+[2017.07.11-06.53.34:606][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/FPSGame/Saved/Collections/' took 0.01s
+[2017.07.11-06.53.34:606][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/FPSGame/Content/Developers/LEEJIU/Collections/' took 0.01s
+[2017.07.11-06.53.34:606][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/FPSGame/Content/Collections/' took 0.01s
+[2017.07.11-06.53.34:606][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2017.07.11-06.53.34:650][  0]LogContentBrowser: Native class hierarchy populated in 0.0413 seconds. Added 2333 classes and 493 folders.
+[2017.07.11-06.53.34:826][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2017.07.11-06.53.35:537][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0042 seconds. Added 0 classes and 0 folders.
+[2017.07.11-06.53.35:643][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0037 seconds. Added 1 classes and 2 folders.
+[2017.07.11-06.53.35:770][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.11-06.53.35:786][  0]LogSlate: Took 0.000723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.11-06.53.35:805][  0]LogSlate: Took 0.015720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.07.11-06.53.35:808][  0]LogSlate: Took 0.000611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.11-06.53.35:834][  0]LogSlate: Took 0.009181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.11-06.53.36:347][  0]LogRenderer: Reallocating scene render targets to support 1168x652 NumSamples 1 (Frame:1).
+[2017.07.11-06.53.36:751][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.07.11-06.53.36:865][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0055 seconds. Added 1 classes and 2 folders.
+[2017.07.11-06.53.36:865][  0]LogLoad: (Engine Initialization) Total time: 43.36 seconds
+[2017.07.11-06.53.36:865][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.07.11-06.53.36:865][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.11-06.53.36:865][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.11-06.53.36:891][  0]LogOcInput: OculusInput pre-init called
+[2017.07.11-06.53.36:891][  0]LogHMD: Starting GearVRController plugin
+[2017.07.11-06.53.36:910][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.11-06.53.36:970][  1]LogAssetRegistry: Asset discovery search completed in 24.7291 seconds
+[2017.07.11-06.53.36:973][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.11-06.53.36:973][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2017.07.11-06.53.40:963][131]LogSlate: Took 0.008672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-06.53.43:019][191]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-06.53.43:540][191]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-06.53.43:618][191]Cmd: MAP LOAD FILE="D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.11-06.53.43:618][191]LightingResults: New page: 라이팅 빌드
+[2017.07.11-06.53.43:716][191]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0048 seconds. Added 5 classes and 0 folders.
+[2017.07.11-06.53.43:718][191]LoadErrors: New page: 맵 로드중: FPSMap.umap
+[2017.07.11-06.53.43:719][191]MapCheck: New page: 맵 체크
+[2017.07.11-06.53.43:719][191]LightingResults: New page: 라이팅 빌드
+[2017.07.11-06.53.43:771][191]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.11-06.53.43:867][191]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.11-06.53.43:958][191]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 90.73ms.
+[2017.07.11-06.53.43:958][191]LogFileHelpers: Loading map 'FPSMap' took 0.342
+[2017.07.11-06.53.55:080][491]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.11-06.56.27:483][971]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-06.56.35:495][995]AssetReimport: New page: 처리중인 소스 콘텐츠 변경사항 오전 12:56:35
+[2017.07.11-06.56.35:500][995]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UnrealStudy/FPSGame/Content/FPP_Idle.FBX)
+[2017.07.11-06.56.35:537][995]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-06.56.35:537][995]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-06.56.35:537][995]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-06.56.35:537][995]LogFbx: ItemName: Model, ItemCount : 44
+[2017.07.11-06.56.35:537][995]LogFbx: ItemName: NodeAttribute, ItemCount : 43
+[2017.07.11-06.56.35:537][995]LogFbx: ItemName: AnimationCurveNode, ItemCount : 86
+[2017.07.11-06.56.35:537][995]LogFbx: ItemName: AnimationCurve, ItemCount : 258
+[2017.07.11-06.56.35:549][995]LogFbx: Loading FBX Scene from D:/UnrealStudy/FPSGame/Content/FPP_Idle.FBX
+[2017.07.11-06.56.35:580][995]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-06.56.45:876][ 60]AssetReimport: 정보 /Game/FPP_Idle 새 애셋 임포트중.
+[2017.07.11-06.56.45:876][ 60]AssetReimport: 정보 D:/UnrealStudy/FPSGame/Content/FPP_Idle.FBX 파일을 임포트하는 데 실패했습니다.
+[2017.07.11-06.57.25:340][657]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UnrealStudy/FPSGame/Content/FPP_Idle.FBX)
+[2017.07.11-06.57.25:347][657]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-06.57.25:347][657]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-06.57.25:347][657]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-06.57.25:347][657]LogFbx: ItemName: Model, ItemCount : 44
+[2017.07.11-06.57.25:347][657]LogFbx: ItemName: NodeAttribute, ItemCount : 43
+[2017.07.11-06.57.25:347][657]LogFbx: ItemName: AnimationCurveNode, ItemCount : 86
+[2017.07.11-06.57.25:347][657]LogFbx: ItemName: AnimationCurve, ItemCount : 258
+[2017.07.11-06.57.25:353][657]LogFbx: Loading FBX Scene from D:/UnrealStudy/FPSGame/Content/FPP_Idle.FBX
+[2017.07.11-06.57.25:380][657]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-06.57.58:976][657]LogFbx: Loading FBX Scene from D:/UnrealStudy/FPSGame/Content/FPP_Idle.FBX
+[2017.07.11-06.57.59:004][657]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-06.57.59:014][657]LogFbx: SortedLinks :(0) b_Root
+[2017.07.11-06.57.59:014][657]LogFbx: SortedLinks :(1) b_LeftArm
+[2017.07.11-06.57.59:014][657]LogFbx: SortedLinks :(2) b_LeftArmRoll
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(3) b_LeftForeArm
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(4) b_LeftForeArmRoll
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(5) b_LeftHand
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(6) b_LeftHandIndex1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(7) b_LeftHandIndex2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(8) b_LeftHandIndex3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(9) b_LeftHandMiddle1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(10) b_LeftHandMiddle2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(11) b_LeftHandMiddle3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(12) b_LeftHandRing1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(13) b_LeftHandRing2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(14) b_LeftHandRing3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(15) b_LeftHandPinky1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(16) b_LeftHandPinky2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(17) b_LeftHandPinky3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(18) b_LeftHandThumb1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(19) b_LeftHandThumb2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(20) b_LeftHandThumb3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(21) b_LeftWeapon
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(22) b_RightArm
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(23) b_RightArmRoll
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(24) b_RightForeArm
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(25) b_RightForeArmRoll
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(26) b_RightHand
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(27) b_RightHandIndex1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(28) b_RightHandIndex2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(29) b_RightHandIndex3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(30) b_RightHandMiddle1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(31) b_RightHandMiddle2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(32) b_RightHandMiddle3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(33) b_RightHandRing1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(34) b_RightHandRing2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(35) b_RightHandRing3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(36) b_RightHandPinky1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(37) b_RightHandPinky2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(38) b_RightHandPinky3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(39) b_RightHandThumb1
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(40) b_RightHandThumb2
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(41) b_RightHandThumb3
+[2017.07.11-06.57.59:015][657]LogFbx: SortedLinks :(42) b_RightWeapon
+[2017.07.11-06.57.59:016][657]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.07.11-06.57.59:020][657]LogLinker: '/Game/Animations/FPP_Idle' 파일을 찾을 수 없습니다.
+[2017.07.11-06.57.59:021][657]LogLinker: '/Game/Animations/FPP_Idle' 파일을 찾을 수 없습니다.
+[2017.07.11-06.57.59:431][657]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/FPP_Idle.FPP_Idle
+[2017.07.11-06.58.02:620][657]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/UnrealStudy/FPSGame/Content/FPP_JumpEnd.FBX)
+[2017.07.11-06.58.02:642][657]LogFbx: Loading FBX Scene from D:/UnrealStudy/FPSGame/Content/FPP_JumpEnd.FBX
+[2017.07.11-06.58.02:672][657]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-06.58.02:675][657]LogFbx: SortedLinks :(0) b_Root
+[2017.07.11-06.58.02:675][657]LogFbx: SortedLinks :(1) b_LeftArm
+[2017.07.11-06.58.02:675][657]LogFbx: SortedLinks :(2) b_LeftArmRoll
+[2017.07.11-06.58.02:675][657]LogFbx: SortedLinks :(3) b_LeftForeArm
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(4) b_LeftForeArmRoll
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(5) b_LeftHand
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(6) b_LeftHandIndex1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(7) b_LeftHandIndex2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(8) b_LeftHandIndex3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(9) b_LeftHandMiddle1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(10) b_LeftHandMiddle2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(11) b_LeftHandMiddle3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(12) b_LeftHandRing1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(13) b_LeftHandRing2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(14) b_LeftHandRing3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(15) b_LeftHandPinky1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(16) b_LeftHandPinky2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(17) b_LeftHandPinky3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(18) b_LeftHandThumb1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(19) b_LeftHandThumb2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(20) b_LeftHandThumb3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(21) b_LeftWeapon
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(22) b_RightArm
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(23) b_RightArmRoll
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(24) b_RightForeArm
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(25) b_RightForeArmRoll
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(26) b_RightHand
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(27) b_RightHandIndex1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(28) b_RightHandIndex2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(29) b_RightHandIndex3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(30) b_RightHandMiddle1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(31) b_RightHandMiddle2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(32) b_RightHandMiddle3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(33) b_RightHandRing1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(34) b_RightHandRing2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(35) b_RightHandRing3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(36) b_RightHandPinky1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(37) b_RightHandPinky2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(38) b_RightHandPinky3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(39) b_RightHandThumb1
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(40) b_RightHandThumb2
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(41) b_RightHandThumb3
+[2017.07.11-06.58.02:676][657]LogFbx: SortedLinks :(42) b_RightWeapon
+[2017.07.11-06.58.02:677][657]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.07.11-06.58.02:679][657]LogLinker: '/Game/Animations/FPP_JumpEnd' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.02:679][657]LogLinker: '/Game/Animations/FPP_JumpEnd' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.02:727][657]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/FPP_JumpEnd.FPP_JumpEnd
+[2017.07.11-06.58.02:737][657]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/UnrealStudy/FPSGame/Content/FPP_JumpLoop.FBX)
+[2017.07.11-06.58.02:749][657]LogFbx: Loading FBX Scene from D:/UnrealStudy/FPSGame/Content/FPP_JumpLoop.FBX
+[2017.07.11-06.58.02:776][657]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(0) b_Root
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(1) b_LeftArm
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(2) b_LeftArmRoll
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(3) b_LeftForeArm
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(4) b_LeftForeArmRoll
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(5) b_LeftHand
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(6) b_LeftHandIndex1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(7) b_LeftHandIndex2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(8) b_LeftHandIndex3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(9) b_LeftHandMiddle1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(10) b_LeftHandMiddle2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(11) b_LeftHandMiddle3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(12) b_LeftHandRing1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(13) b_LeftHandRing2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(14) b_LeftHandRing3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(15) b_LeftHandPinky1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(16) b_LeftHandPinky2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(17) b_LeftHandPinky3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(18) b_LeftHandThumb1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(19) b_LeftHandThumb2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(20) b_LeftHandThumb3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(21) b_LeftWeapon
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(22) b_RightArm
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(23) b_RightArmRoll
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(24) b_RightForeArm
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(25) b_RightForeArmRoll
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(26) b_RightHand
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(27) b_RightHandIndex1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(28) b_RightHandIndex2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(29) b_RightHandIndex3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(30) b_RightHandMiddle1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(31) b_RightHandMiddle2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(32) b_RightHandMiddle3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(33) b_RightHandRing1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(34) b_RightHandRing2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(35) b_RightHandRing3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(36) b_RightHandPinky1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(37) b_RightHandPinky2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(38) b_RightHandPinky3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(39) b_RightHandThumb1
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(40) b_RightHandThumb2
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(41) b_RightHandThumb3
+[2017.07.11-06.58.02:780][657]LogFbx: SortedLinks :(42) b_RightWeapon
+[2017.07.11-06.58.02:781][657]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.07.11-06.58.02:783][657]LogLinker: '/Game/Animations/FPP_JumpLoop' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.02:783][657]LogLinker: '/Game/Animations/FPP_JumpLoop' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.02:931][657]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/FPP_JumpLoop.FPP_JumpLoop
+[2017.07.11-06.58.02:945][657]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/UnrealStudy/FPSGame/Content/FPP_JumpStart.FBX)
+[2017.07.11-06.58.02:960][657]LogFbx: Loading FBX Scene from D:/UnrealStudy/FPSGame/Content/FPP_JumpStart.FBX
+[2017.07.11-06.58.02:992][657]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(0) b_Root
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(1) b_LeftArm
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(2) b_LeftArmRoll
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(3) b_LeftForeArm
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(4) b_LeftForeArmRoll
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(5) b_LeftHand
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(6) b_LeftHandIndex1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(7) b_LeftHandIndex2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(8) b_LeftHandIndex3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(9) b_LeftHandMiddle1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(10) b_LeftHandMiddle2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(11) b_LeftHandMiddle3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(12) b_LeftHandRing1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(13) b_LeftHandRing2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(14) b_LeftHandRing3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(15) b_LeftHandPinky1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(16) b_LeftHandPinky2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(17) b_LeftHandPinky3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(18) b_LeftHandThumb1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(19) b_LeftHandThumb2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(20) b_LeftHandThumb3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(21) b_LeftWeapon
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(22) b_RightArm
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(23) b_RightArmRoll
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(24) b_RightForeArm
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(25) b_RightForeArmRoll
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(26) b_RightHand
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(27) b_RightHandIndex1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(28) b_RightHandIndex2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(29) b_RightHandIndex3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(30) b_RightHandMiddle1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(31) b_RightHandMiddle2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(32) b_RightHandMiddle3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(33) b_RightHandRing1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(34) b_RightHandRing2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(35) b_RightHandRing3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(36) b_RightHandPinky1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(37) b_RightHandPinky2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(38) b_RightHandPinky3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(39) b_RightHandThumb1
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(40) b_RightHandThumb2
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(41) b_RightHandThumb3
+[2017.07.11-06.58.02:997][657]LogFbx: SortedLinks :(42) b_RightWeapon
+[2017.07.11-06.58.02:998][657]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.07.11-06.58.03:001][657]LogLinker: '/Game/Animations/FPP_JumpStart' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.03:001][657]LogLinker: '/Game/Animations/FPP_JumpStart' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.03:073][657]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/FPP_JumpStart.FPP_JumpStart
+[2017.07.11-06.58.03:087][657]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/UnrealStudy/FPSGame/Content/FPP_Run.FBX)
+[2017.07.11-06.58.03:105][657]LogFbx: Loading FBX Scene from D:/UnrealStudy/FPSGame/Content/FPP_Run.FBX
+[2017.07.11-06.58.03:141][657]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(0) b_Root
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(1) b_LeftArm
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(2) b_LeftArmRoll
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(3) b_LeftForeArm
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(4) b_LeftForeArmRoll
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(5) b_LeftHand
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(6) b_LeftHandIndex1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(7) b_LeftHandIndex2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(8) b_LeftHandIndex3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(9) b_LeftHandMiddle1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(10) b_LeftHandMiddle2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(11) b_LeftHandMiddle3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(12) b_LeftHandRing1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(13) b_LeftHandRing2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(14) b_LeftHandRing3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(15) b_LeftHandPinky1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(16) b_LeftHandPinky2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(17) b_LeftHandPinky3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(18) b_LeftHandThumb1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(19) b_LeftHandThumb2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(20) b_LeftHandThumb3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(21) b_LeftWeapon
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(22) b_RightArm
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(23) b_RightArmRoll
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(24) b_RightForeArm
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(25) b_RightForeArmRoll
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(26) b_RightHand
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(27) b_RightHandIndex1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(28) b_RightHandIndex2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(29) b_RightHandIndex3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(30) b_RightHandMiddle1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(31) b_RightHandMiddle2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(32) b_RightHandMiddle3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(33) b_RightHandRing1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(34) b_RightHandRing2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(35) b_RightHandRing3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(36) b_RightHandPinky1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(37) b_RightHandPinky2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(38) b_RightHandPinky3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(39) b_RightHandThumb1
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(40) b_RightHandThumb2
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(41) b_RightHandThumb3
+[2017.07.11-06.58.03:146][657]LogFbx: SortedLinks :(42) b_RightWeapon
+[2017.07.11-06.58.03:147][657]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.07.11-06.58.03:150][657]LogLinker: '/Game/Animations/FPP_Run' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.03:151][657]LogLinker: '/Game/Animations/FPP_Run' 파일을 찾을 수 없습니다.
+[2017.07.11-06.58.03:264][657]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/FPP_Run.FPP_Run
+[2017.07.11-06.58.28:139][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FPSMap" FILE="D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.11-06.58.28:224][736]LogSavePackage: Save=49.74ms
+[2017.07.11-06.58.28:224][736]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/FPSMap79977A1D468418CA242C0093BF2C8EA0.tmp' to 'D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap'
+[2017.07.11-06.58.28:225][736]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap
+[2017.07.11-06.58.44:192][161]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.07.11-06.58.52:618][161]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.07.11-06.59.33:579][802]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0098 seconds. Added 1 classes and 2 folders.
+[2017.07.11-06.59.33:931][802]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.07.11-06.59.35:397][802]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0060 seconds. Added 112 classes and 0 folders.
+[2017.07.11-06.59.37:453][802]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.07.11-06.59.39:308][802]LogSlate: Took 0.010799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.11-06.59.39:538][802]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0055 seconds. Added 1 classes and 0 folders.
+[2017.07.11-07.00.18:623][268]LogSlate: Took 0.008952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.11-07.02.28:796][939]LogSlate: Took 0.013165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.11-07.32.50:937][680]BlueprintLog: New page: Arms_AnimBP 컴파일
+[2017.07.11-07.32.54:560][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Arms_AnimBP" FILE="D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset" SILENT=true
+[2017.07.11-07.32.55:192][706]LogSavePackage: Save=625.85ms
+[2017.07.11-07.32.55:192][706]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/Arms_AnimBPFAA15E68400B5EA46878199514C93CAC.tmp' to 'D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset'
+[2017.07.11-07.32.55:206][706]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset
+[2017.07.11-07.35.39:233][ 70]BlueprintLog: New page: BP_FPSCharacter 컴파일
+[2017.07.11-07.35.41:475][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSCharacter" FILE="D:/UnrealStudy/FPSGame/Content/Blueprints/BP_FPSCharacter.uasset" SILENT=true
+[2017.07.11-07.35.41:583][ 79]LogSavePackage: Save=87.09ms
+[2017.07.11-07.35.41:583][ 79]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/BP_FPSCharacter5A3C3DB949C26C10FFD1D69D7785C5EE.tmp' to 'D:/UnrealStudy/FPSGame/Content/Blueprints/BP_FPSCharacter.uasset'
+[2017.07.11-07.35.41:590][ 79]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Blueprints/BP_FPSCharacter.uasset
+[2017.07.11-07.35.43:114][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSCharacter" FILE="D:/UnrealStudy/FPSGame/Content/Blueprints/BP_FPSCharacter.uasset" SILENT=true
+[2017.07.11-07.35.43:224][101]LogSavePackage: Save=89.22ms
+[2017.07.11-07.35.43:224][101]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/BP_FPSCharacterD70064084B810F3C9D2A218EC28D3CDC.tmp' to 'D:/UnrealStudy/FPSGame/Content/Blueprints/BP_FPSCharacter.uasset'
+[2017.07.11-07.35.43:228][101]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Blueprints/BP_FPSCharacter.uasset
+[2017.07.11-07.35.48:238][151]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-07.35.48:455][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-07.35.48:463][151]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 1:35:48)
+[2017.07.11-07.35.48:463][151]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-07.35.48:470][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006921s)
+[2017.07.11-07.35.48:472][151]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-07.35.48:473][151]LogPlayLevel: PIE: World Init took: (0.002276s)
+[2017.07.11-07.35.48:473][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.009752s)
+[2017.07.11-07.35.48:589][151]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-07.35.48:633][151]LogInit: FAudioDevice initialized.
+[2017.07.11-07.35.48:773][151]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-07.35.48:778][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-16.35.48
+[2017.07.11-07.35.48:779][151]LogWorld: Bringing up level for play took: 0.003840
+[2017.07.11-07.35.49:027][151]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0089 seconds. Added 11 classes and 0 folders.
+[2017.07.11-07.35.49:037][151]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: 1.563
+[2017.07.11-08.41.49:382][196]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-08.41.49:439][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-08.41.49:439][196]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 2:41:49)
+[2017.07.11-08.41.49:439][196]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-08.41.49:444][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004524s)
+[2017.07.11-08.41.49:446][196]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-08.41.49:446][196]LogPlayLevel: PIE: World Init took: (0.001813s)
+[2017.07.11-08.41.49:446][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.006777s)
+[2017.07.11-08.41.49:496][196]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-08.41.49:507][196]LogInit: FAudioDevice initialized.
+[2017.07.11-08.41.49:544][196]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-08.41.49:547][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-17.41.49
+[2017.07.11-08.41.49:547][196]LogWorld: Bringing up level for play took: 0.002121
+[2017.07.11-08.41.49:551][196]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: 0.077
+[2017.07.11-08.42.10:688][756]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.07.11-08.42.11:357][756]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.07.11-08.42.40:296][100]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.11-08.42.42:581][125]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.11-08.43.39:062][963]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-08.43.39:129][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-08.43.39:130][963]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 2:43:39)
+[2017.07.11-08.43.39:130][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-08.43.39:140][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009730s)
+[2017.07.11-08.43.39:144][963]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-08.43.39:145][963]LogPlayLevel: PIE: World Init took: (0.004670s)
+[2017.07.11-08.43.39:145][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.015284s)
+[2017.07.11-08.43.39:281][963]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-08.43.39:304][963]LogInit: FAudioDevice initialized.
+[2017.07.11-08.43.39:361][963]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-08.43.39:367][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-17.43.39
+[2017.07.11-08.43.39:367][963]LogWorld: Bringing up level for play took: 0.004014
+[2017.07.11-08.43.39:376][963]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: -0.098
+[2017.07.11-08.43.46:324][ 34]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-08.43.46:399][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-08.43.46:400][ 34]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 2:43:46)
+[2017.07.11-08.43.46:400][ 34]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-08.43.46:408][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007943s)
+[2017.07.11-08.43.46:411][ 34]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-08.43.46:412][ 34]LogPlayLevel: PIE: World Init took: (0.003824s)
+[2017.07.11-08.43.46:412][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.012604s)
+[2017.07.11-08.43.46:573][ 34]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-08.43.46:612][ 34]LogInit: FAudioDevice initialized.
+[2017.07.11-08.43.46:676][ 34]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-08.43.46:682][ 34]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-17.43.46
+[2017.07.11-08.43.46:683][ 34]LogWorld: Bringing up level for play took: 0.003843
+[2017.07.11-08.43.46:693][ 34]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: 1.219
+[2017.07.11-08.45.01:582][728]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.07.11-08.45.01:720][728]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.07.11-08.45.05:591][728]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.11-08.46.56:938][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.07.11-08.46.57:599][165]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.07.11-08.47.12:300][348]BlueprintLog: New page: Arms_AnimBP 컴파일
+[2017.07.11-08.47.38:323][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Arms_AnimBP" FILE="D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset" SILENT=true
+[2017.07.11-08.47.38:829][735]LogSavePackage: Save=469.93ms
+[2017.07.11-08.47.38:830][735]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/Arms_AnimBP7C5F97204481CAD0BF95478F4C059A3C.tmp' to 'D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset'
+[2017.07.11-08.47.38:837][735]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset
+[2017.07.11-08.47.41:537][767]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-08.47.41:609][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-08.47.41:610][767]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 2:47:41)
+[2017.07.11-08.47.41:610][767]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-08.47.41:615][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004901s)
+[2017.07.11-08.47.41:617][767]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-08.47.41:618][767]LogPlayLevel: PIE: World Init took: (0.002903s)
+[2017.07.11-08.47.41:618][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.008480s)
+[2017.07.11-08.47.41:731][767]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-08.47.41:758][767]LogInit: FAudioDevice initialized.
+[2017.07.11-08.47.41:810][767]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-08.47.41:814][767]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-17.47.41
+[2017.07.11-08.47.41:814][767]LogWorld: Bringing up level for play took: 0.002610
+[2017.07.11-08.47.41:820][767]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: 0.346
+[2017.07.11-08.48.15:011][587]Cmd: SELECT NONE
+[2017.07.11-08.48.22:283][759]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.11-08.48.37:181][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.07.11-08.48.38:288][877]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.07.11-08.52.26:974][872]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.11-08.52.41:383][ 77]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-08.52.41:471][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-08.52.41:472][ 77]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 2:52:41)
+[2017.07.11-08.52.41:472][ 77]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-08.52.41:480][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007954s)
+[2017.07.11-08.52.41:482][ 77]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-08.52.41:483][ 77]LogPlayLevel: PIE: World Init took: (0.002727s)
+[2017.07.11-08.52.41:484][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.011508s)
+[2017.07.11-08.52.41:654][ 77]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-08.52.41:671][ 77]LogInit: FAudioDevice initialized.
+[2017.07.11-08.52.41:729][ 77]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-08.52.41:736][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-17.52.41
+[2017.07.11-08.52.41:745][ 77]LogWorld: Bringing up level for play took: 0.013926
+[2017.07.11-08.52.41:755][ 77]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: 0.281
+[2017.07.11-08.53.20:976][936]LogEditorViewport: Clicking on Actor (LMB): BP_FPSCharacter_C (BP_FPSCharacter)
+[2017.07.11-08.53.31:274][  0]LogEditorActor: Deleted Actor: BP_FPSCharacter_C
+[2017.07.11-08.53.31:377][  0]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2017.07.11-08.53.33:040][ 41]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.11-08.53.37:247][117]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-08.53.37:400][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-08.53.37:401][117]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 2:53:37)
+[2017.07.11-08.53.37:401][117]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-08.53.37:411][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009597s)
+[2017.07.11-08.53.37:416][117]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-08.53.37:417][117]LogPlayLevel: PIE: World Init took: (0.006167s)
+[2017.07.11-08.53.37:418][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.016757s)
+[2017.07.11-08.53.37:549][117]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-08.53.37:574][117]LogInit: FAudioDevice initialized.
+[2017.07.11-08.53.37:626][117]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-08.53.37:632][117]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-17.53.37
+[2017.07.11-08.53.37:633][117]LogWorld: Bringing up level for play took: 0.004662
+[2017.07.11-08.53.37:640][117]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: 0.167
+[2017.07.11-08.55.43:845][742]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_5.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.07.11-08.55.46:462][742]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_5.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.07.11-08.56.17:854][892]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.11-08.56.18:014][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-08.56.18:015][892]PIE: New page: PIE 세션: FPSMap (2017. 7. 12. 오전 2:56:18)
+[2017.07.11-08.56.18:015][892]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2017.07.11-08.56.18:031][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015436s)
+[2017.07.11-08.56.18:038][892]LogAIModule: Creating AISystem for world FPSMap
+[2017.07.11-08.56.18:038][892]LogPlayLevel: PIE: World Init took: (0.007170s)
+[2017.07.11-08.56.18:039][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.023765s)
+[2017.07.11-08.56.18:210][892]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.11-08.56.18:237][892]LogInit: FAudioDevice initialized.
+[2017.07.11-08.56.18:297][892]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2017.07.11-08.56.18:302][892]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2017.07.11-17.56.18
+[2017.07.11-08.56.18:303][892]LogWorld: Bringing up level for play took: 0.004532
+[2017.07.11-08.56.18:313][892]PIE: 정보 /Game/Maps/UEDPIE_0_FPSMap 에 대한 에디터에서 플레이 시작 시간: 0.839
+[2017.07.11-09.08.55:323][869]BlueprintLog: New page: Arms_AnimBP 컴파일
+[2017.07.11-09.08.57:674][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Arms_AnimBP" FILE="D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset" SILENT=true
+[2017.07.11-09.08.58:284][905]LogSavePackage: Save=556.62ms
+[2017.07.11-09.08.58:284][905]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/Arms_AnimBP528FDF8E420A4E85E1EEA4BF31880401.tmp' to 'D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset'
+[2017.07.11-09.08.58:295][905]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Animations/Arms_AnimBP.uasset
+[2017.07.11-09.09.04:228][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FPSMap" FILE="D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.11-09.09.04:539][ 41]LogSavePackage: Save=157.14ms
+[2017.07.11-09.09.04:539][ 41]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/FPSMap7A0C558446567156D6FC769BE06758C2.tmp' to 'D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap'
+[2017.07.11-09.09.04:548][ 41]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap
+[2017.07.11-09.10.15:943][605]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/FPSGame/Source/FPSGame/FPSCharacter.h'
+[2017.07.11-09.10.17:558][605]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/FPSGame/Source/FPSGame/FPSCharacter.cpp'
+[2017.07.11-09.50.33:541][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FPSMap" FILE="D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.11-09.50.34:369][823]LogSavePackage: Save=152.34ms
+[2017.07.11-09.50.34:369][823]LogSavePackage: Moving 'D:/UnrealStudy/FPSGame/Saved/FPSMap88DE11654923E33A520799BE72C61B95.tmp' to 'D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap'
+[2017.07.11-09.50.34:374][823]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/FPSGame/Content/Maps/FPSMap.umap
+[2017.07.11-09.50.36:724][875]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.36:765][876]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.36:805][877]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.36:845][878]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.36:884][879]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.36:924][880]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.36:965][881]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:006][882]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:045][883]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:085][884]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:125][885]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:165][886]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:205][887]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:245][888]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:285][889]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:325][890]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:365][891]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:406][892]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:445][893]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:485][894]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:524][895]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:564][896]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:604][897]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:644][898]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:684][899]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:725][900]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:765][901]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:809][902]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:846][903]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:886][904]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:927][905]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.37:968][906]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:007][907]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:048][908]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:089][909]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:129][910]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:169][911]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:209][912]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:248][913]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:288][914]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:328][915]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:368][916]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:408][917]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:447][918]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:487][919]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:527][920]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:567][921]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:607][922]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:646][923]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:686][924]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:686][924]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:727][925]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:727][925]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:767][926]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:767][926]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:808][927]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:808][927]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:848][928]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:848][928]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:888][929]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:888][929]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:928][930]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:928][930]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:968][931]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.38:968][931]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:009][932]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:009][932]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:049][933]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:049][933]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:090][934]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:090][934]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:130][935]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:131][935]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:171][936]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:171][936]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:211][937]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:211][937]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:272][938]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:272][938]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:302][939]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:302][939]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:332][940]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:332][940]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:373][941]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:373][941]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:373][941]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:420][942]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:420][942]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:420][942]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:453][943]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:453][943]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:453][943]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:494][944]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:494][944]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:494][944]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:552][945]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:552][945]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:552][945]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:552][945]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:606][946]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:606][946]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:606][946]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:606][946]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:636][947]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:636][947]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:636][947]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:636][947]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:667][948]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:667][948]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:667][948]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:667][948]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:715][949]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:715][949]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:715][949]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:715][949]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:715][949]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:748][950]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:748][950]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:748][950]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:748][950]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:748][950]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:788][951]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:789][951]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:789][951]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:789][951]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:789][951]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:843][952]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:843][952]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:843][952]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:843][952]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:843][952]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:870][953]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:870][953]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:870][953]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:870][953]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:870][953]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:870][953]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:909][954]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:909][954]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:909][954]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:909][954]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:909][954]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:909][954]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:949][955]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:949][955]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:949][955]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:950][955]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:950][955]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.39:950][955]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:003][956]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:003][956]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:003][956]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:003][956]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:003][956]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:003][956]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:032][957]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:032][957]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:032][957]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:033][957]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:033][957]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:033][957]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:071][958]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:071][958]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:071][958]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:071][958]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:071][958]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:071][958]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:071][958]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:123][959]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:123][959]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:123][959]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:123][959]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:123][959]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:123][959]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:123][959]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:154][960]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:154][960]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:154][960]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:154][960]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:154][960]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:155][960]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:155][960]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:191][961]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:192][961]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:192][961]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:192][961]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:192][961]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:192][961]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:192][961]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:232][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:232][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:232][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:232][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:233][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:233][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:233][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:233][962]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:273][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:274][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:274][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:274][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:274][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:274][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:274][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:274][963]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:315][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:355][965]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:395][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:395][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:395][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:396][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:396][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:396][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:396][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:396][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:396][966]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:436][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:436][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:436][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:436][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:437][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:437][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:437][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:437][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:437][967]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:476][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:476][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:477][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:477][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:477][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:477][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:477][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:477][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:477][968]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:517][969]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:558][970]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:600][971]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:639][972]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:679][973]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:719][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:719][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:720][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:720][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:720][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:720][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:720][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:720][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:720][974]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:759][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:760][975]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:800][976]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:840][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:840][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:840][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:840][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:840][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:841][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:841][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:841][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:841][977]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:881][978]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:921][979]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.40:961][980]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:002][981]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:042][982]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:082][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:083][983]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:123][984]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:164][985]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:206][986]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:247][987]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:289][988]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:331][989]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:368][990]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:407][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:408][991]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:447][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:448][992]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:488][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:489][993]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:538][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:538][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:538][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:538][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:539][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:539][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:539][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:539][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:539][994]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.41:849][995]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:180][996]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:515][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:515][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:515][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:515][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:515][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:515][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:515][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:516][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:516][997]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:854][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.42:855][998]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:207][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:208][999]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:238][  0]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:266][  1]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:306][  2]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:345][  3]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:371][  4]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:400][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:437][  6]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:477][  7]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:517][  8]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:602][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:603][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:603][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:603][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:603][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:604][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:604][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:604][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:604][  9]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:886][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:886][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:886][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:887][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:887][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:887][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:887][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:887][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.43:887][ 10]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:305][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:305][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:306][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:306][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:306][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:306][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:306][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:306][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:306][ 11]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:551][ 12]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.44:882][ 13]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:206][ 14]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:548][ 15]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.45:872][ 16]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:200][ 17]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:553][ 18]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.46:870][ 19]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:219][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:220][ 20]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:534][ 21]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.11-09.50.47:880][ 22]Cmd: CLOSE_SLATE_MAINFRAME

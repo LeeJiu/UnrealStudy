@@ -1,0 +1,1090 @@
+﻿Log file open, 07/06/17 14:49:35
+LogInit:Display: Running engine for game: HowTo_PlayerInput
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1731118052) SRandInit(1731118053).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.093029
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.06-05.49.36:421][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.06-05.49.36:421][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.06-05.49.36:457][  0]LogInit: Computer: LEEJIU
+[2017.07.06-05.49.36:457][  0]LogInit: User: LEEJIU
+[2017.07.06-05.49.36:457][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.06-05.49.36:457][  0]LogInit: High frequency timer resolution =2.435883 MHz
+[2017.07.06-05.49.36:458][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.06-05.49.36:458][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.06-05.49.36:458][  0]LogMemory: Process Physical Memory: 271.93 MB used, 271.93 MB peak
+[2017.07.06-05.49.36:458][  0]LogMemory: Process Virtual Memory: 258.36 MB used, 258.36 MB peak
+[2017.07.06-05.49.36:458][  0]LogMemory: Physical Memory: 2879.82 MB used,  5219.58 MB free, 8099.39 MB total
+[2017.07.06-05.49.36:458][  0]LogMemory: Virtual Memory: 633.96 MB used,  5219.58 MB free, 134217728.00 MB total
+[2017.07.06-05.49.36:625][  0]LogInit: Using OS detected language (ko-KR).
+[2017.07.06-05.49.36:625][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.07.06-05.49.36:632][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.07.06-05.49.38:144][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.06-05.49.38:243][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 11_0)
+[2017.07.06-05.49.38:243][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.07.06-05.49.38:321][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2017.07.06-05.49.38:321][  0]LogD3D11RHI:       2000/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.07.06-05.49.38:326][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.06-05.49.38:326][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.06-05.49.38:326][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.07.06-05.49.38:336][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.06-05.49.38:336][  0]LogD3D11RHI:     GPU DeviceId: 0x124d (for the marketing name, search the web for "GPU Device Id")
+[2017.07.06-05.49.38:336][  0]LogWindows: EnumDisplayDevices:
+[2017.07.06-05.49.38:336][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2017.07.06-05.49.38:337][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.07.06-05.49.38:337][  0]LogWindows:    2. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2017.07.06-05.49.38:337][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.07.06-05.49.38:337][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2017.07.06-05.49.38:337][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.06-05.49.38:337][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.06-05.49.38:337][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.06-05.49.38:393][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.06-05.49.38:393][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.06-05.49.38:410][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.06-05.49.38:413][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/UnrealStudy/HowTo_PlayerInput/Intermediate/Shaders/WorkingDirectory/6276/).
+[2017.07.06-05.49.38:414][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LEEJIU/AppData/Local/Temp/UnrealShaderWorkingDir/E57A43EE42E4401A9419A7817F89123C/'.
+[2017.07.06-05.49.38:414][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.06-05.49.40:654][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.06-05.49.40:793][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.06-05.49.40:908][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.06-05.49.41:004][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.06-05.49.41:106][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.06-05.49.41:229][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.06-05.49.41:339][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.06-05.49.41:438][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.06-05.49.41:532][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.06-05.49.41:630][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.06-05.49.41:728][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.06-05.49.41:827][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.06-05.49.41:938][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.06-05.49.42:044][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.06-05.49.42:163][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.06-05.49.42:420][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.06-05.49.42:420][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.06-05.49.42:521][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.06-05.49.42:716][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.06-05.49.42:780][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.06-05.49.42:895][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.06-05.49.43:012][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.06-05.49.43:113][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.06-05.49.43:194][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.06-05.49.43:194][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.06-05.49.44:323][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.06-05.49.44:476][  0]LogDerivedDataCache: Loaded boot cache 0.15s 90MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.06-05.49.44:476][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.06-05.49.44:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealStudy/HowTo_PlayerInput/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.06-05.49.44:476][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.06-05.49.44:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealStudy/HowTo_PlayerInput/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.06-05.49.44:476][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.06-05.49.44:507][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.06-05.49.44:520][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LEEJIU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.06-05.49.44:539][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.06-05.49.44:539][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.06-05.49.44:540][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.06-05.49.44:540][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.06-05.49.45:198][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.06-05.49.45:344][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.06-05.49.45:721][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.06-05.49.45:805][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.06-05.49.45:909][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.06-05.49.45:909][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.06-05.49.45:909][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.06-05.49.47:141][  0]LogNetVersion: HowTo_PlayerInput , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2486423695)
+[2017.07.06-05.49.47:270][  0]LogAssetRegistry: FAssetRegistry took 0.0326 seconds to start up
+[2017.07.06-05.49.47:460][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.087850 seconds
+[2017.07.06-05.49.47:477][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.06-05.49.47:477][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.06-05.49.47:477][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.06-05.49.47:708][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.06-05.49.55:214][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.06-05.49.55:317][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.06-05.49.56:420][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.06-05.49.57:341][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.06-05.49.57:424][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.06-05.49.57:550][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.06-05.49.57:666][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.06-05.49.59:310][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.06-05.50.00:713][  0]LogEngine: Initializing Engine...
+[2017.07.06-05.50.00:714][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.06-05.50.01:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.06-05.50.01:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.06-05.50.01:443][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.06-05.50.01:457][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.06-05.50.01:491][  0]LogInit: FAudioDevice initialized.
+[2017.07.06-05.50.01:566][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.06-05.50.01:587][  0]LogInit: Texture streaming: Enabled
+[2017.07.06-05.50.01:847][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.06-05.50.02:390][  0]LogInit: Transaction tracking system initialized
+[2017.07.06-05.50.03:189][  0]BlueprintLog: New page: 에디터 로드
+[2017.07.06-05.50.05:603][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.07.06-05.50.07:193][  0]LogConsoleResponse:Display: 
+[2017.07.06-05.50.07:591][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.06-05.50.07:592][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/HowTo_PlayerInput/Content/' took 0.01s
+[2017.07.06-05.50.07:592][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.06-05.50.10:150][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.06-05.50.10:153][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.07.06-05.50.10:167][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.07.06-05.50.10:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.07.06-05.50.10:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.07.06-05.50.10:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.07.06-05.50.10:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.07.06-05.50.10:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.07.06-05.50.10:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.07.06-05.50.10:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.07.06-05.50.10:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.07.06-05.50.10:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.07.06-05.50.10:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.07.06-05.50.10:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.07.06-05.50.10:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.07.06-05.50.10:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.07.06-05.50.10:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.07.06-05.50.10:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.07.06-05.50.10:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.07.06-05.50.10:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.07.06-05.50.10:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Fire01.uasset"
+[2017.07.06-05.50.10:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.07.06-05.50.10:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.07.06-05.50.10:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.07.06-05.50.10:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Light01.uasset"
+[2017.07.06-05.50.10:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.07.06-05.50.10:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Light02.uasset"
+[2017.07.06-05.50.10:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.07.06-05.50.10:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.07.06-05.50.10:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.07.06-05.50.10:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.07.06-05.50.10:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.07.06-05.50.10:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.07.06-05.50.10:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.07.06-05.50.10:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.07.06-05.50.10:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.07.06-05.50.10:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Steam01.uasset"
+[2017.07.06-05.50.10:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.07.06-05.50.10:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.07.06-05.50.10:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.07.06-05.50.10:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.07.06-05.50.10:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.07.06-05.50.10:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.07.06-05.50.10:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.07.06-05.50.10:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.07.06-05.50.10:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.07.06-05.50.10:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.07.06-05.50.10:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.07.06-05.50.10:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.07.06-05.50.10:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.07.06-05.50.10:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.07.06-05.50.10:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.07.06-05.50.10:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.07.06-05.50.10:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.07.06-05.50.10:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.07.06-05.50.10:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.07.06-05.50.10:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.07.06-05.50.10:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.07.06-05.50.10:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.07.06-05.50.10:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/StarterMap.umap"
+[2017.07.06-05.50.10:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.07.06-05.50.10:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.07.06-05.50.10:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.07.06-05.50.10:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.07.06-05.50.10:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.07.06-05.50.10:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.07.06-05.50.10:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.07.06-05.50.10:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.07.06-05.50.10:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.07.06-05.50.10:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.07.06-05.50.10:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.07.06-05.50.10:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.07.06-05.50.10:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.07.06-05.50.10:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.07.06-05.50.10:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.07.06-05.50.10:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.07.06-05.50.10:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.07.06-05.50.10:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.07.06-05.50.10:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.07.06-05.50.10:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.07.06-05.50.10:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.07.06-05.50.10:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.07.06-05.50.10:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.07.06-05.50.10:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.07.06-05.50.10:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.07.06-05.50.10:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.07.06-05.50.10:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.07.06-05.50.10:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.07.06-05.50.10:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.07.06-05.50.10:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.07.06-05.50.10:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.07.06-05.50.10:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.07.06-05.50.10:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.07.06-05.50.10:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.07.06-05.50.10:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.07.06-05.50.11:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.07.06-05.50.11:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.07.06-05.50.11:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.07.06-05.50.11:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.07.06-05.50.11:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.07.06-05.50.11:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.07.06-05.50.11:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.07.06-05.50.11:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.07.06-05.50.11:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.07.06-05.50.11:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.07.06-05.50.11:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.07.06-05.50.11:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.07.06-05.50.11:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.07.06-05.50.11:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.07.06-05.50.11:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.07.06-05.50.11:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.07.06-05.50.11:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.07.06-05.50.11:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.07.06-05.50.11:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.07.06-05.50.11:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.07.06-05.50.11:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.07.06-05.50.11:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.07.06-05.50.11:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.07.06-05.50.11:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.07.06-05.50.11:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.07.06-05.50.11:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.07.06-05.50.11:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.07.06-05.50.11:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.07.06-05.50.11:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.07.06-05.50.11:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.07.06-05.50.11:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Door.uasset"
+[2017.07.06-05.50.11:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.07.06-05.50.11:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.07.06-05.50.11:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.07.06-05.50.11:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.07.06-05.50.11:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.07.06-05.50.11:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.07.06-05.50.11:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.07.06-05.50.11:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.07.06-05.50.11:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.07.06-05.50.11:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.07.06-05.50.11:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.07.06-05.50.11:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.07.06-05.50.11:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.07.06-05.50.11:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.07.06-05.50.11:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.07.06-05.50.11:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.07.06-05.50.11:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.07.06-05.50.11:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.07.06-05.50.11:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.07.06-05.50.11:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.07.06-05.50.11:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.07.06-05.50.11:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.07.06-05.50.11:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.07.06-05.50.11:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.07.06-05.50.11:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.07.06-05.50.11:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.07.06-05.50.11:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.07.06-05.50.11:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.07.06-05.50.11:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.07.06-05.50.11:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.07.06-05.50.11:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.07.06-05.50.11:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.07.06-05.50.11:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.07.06-05.50.11:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.07.06-05.50.11:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.07.06-05.50.11:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.07.06-05.50.11:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.07.06-05.50.11:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.07.06-05.50.11:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.07.06-05.50.11:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.07.06-05.50.11:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.07.06-05.50.11:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.07.06-05.50.11:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.07.06-05.50.11:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.07.06-05.50.11:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.07.06-05.50.11:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.07.06-05.50.11:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.07.06-05.50.11:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.07.06-05.50.11:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.07.06-05.50.11:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.07.06-05.50.11:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.07.06-05.50.11:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.07.06-05.50.11:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.07.06-05.50.11:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.07.06-05.50.11:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.07.06-05.50.11:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.07.06-05.50.11:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.07.06-05.50.11:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.07.06-05.50.11:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.07.06-05.50.11:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.07.06-05.50.11:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.07.06-05.50.11:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.07.06-05.50.11:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.07.06-05.50.11:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.07.06-05.50.11:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.07.06-05.50.11:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.07.06-05.50.11:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.07.06-05.50.11:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.07.06-05.50.11:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.07.06-05.50.11:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.07.06-05.50.11:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.07.06-05.50.12:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.07.06-05.50.12:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.07.06-05.50.12:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.07.06-05.50.12:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.07.06-05.50.12:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.07.06-05.50.12:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.07.06-05.50.12:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.07.06-05.50.12:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.07.06-05.50.12:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.07.06-05.50.12:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.07.06-05.50.12:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.07.06-05.50.12:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.07.06-05.50.12:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.07.06-05.50.12:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.07.06-05.50.12:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.07.06-05.50.12:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.07.06-05.50.12:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.07.06-05.50.12:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.07.06-05.50.12:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.07.06-05.50.12:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.07.06-05.50.12:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.07.06-05.50.12:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.07.06-05.50.12:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.07.06-05.50.12:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.07.06-05.50.12:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.07.06-05.50.12:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.07.06-05.50.12:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.07.06-05.50.12:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.07.06-05.50.12:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.07.06-05.50.12:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.07.06-05.50.12:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.07.06-05.50.12:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.07.06-05.50.12:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.07.06-05.50.12:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.07.06-05.50.12:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.07.06-05.50.12:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.07.06-05.50.12:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.07.06-05.50.12:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.07.06-05.50.12:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.07.06-05.50.12:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.07.06-05.50.12:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.07.06-05.50.12:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.07.06-05.50.12:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.07.06-05.50.12:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.07.06-05.50.12:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.07.06-05.50.12:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.07.06-05.50.12:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.07.06-05.50.12:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.07.06-05.50.13:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.07.06-05.50.13:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.07.06-05.50.13:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.07.06-05.50.13:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.07.06-05.50.13:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.07.06-05.50.13:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.07.06-05.50.13:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.07.06-05.50.13:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.07.06-05.50.13:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.07.06-05.50.13:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.07.06-05.50.13:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.07.06-05.50.13:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.07.06-05.50.13:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.07.06-05.50.13:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.07.06-05.50.13:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.07.06-05.50.13:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.07.06-05.50.13:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.07.06-05.50.13:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.07.06-05.50.13:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.07.06-05.50.13:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.07.06-05.50.13:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.07.06-05.50.13:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.07.06-05.50.13:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.07.06-05.50.13:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.07.06-05.50.13:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.07.06-05.50.13:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.07.06-05.50.13:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.07.06-05.50.13:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.07.06-05.50.14:155][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.07.06-05.50.14:308][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.07.06-05.50.14:363][  0]LogSavePackage: Save=36.06ms
+[2017.07.06-05.50.14:363][  0]LogSavePackage: Moving 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Floor_400x4001F1B89B84B2F0F7904ECFF9759006954.tmp' to 'D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.07.06-05.50.14:374][  0]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.07.06-05.50.14:374][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.07.06-05.50.14:384][  0]Cmd: MAP LOAD FILE="D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.06-05.50.14:385][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.06-05.50.14:480][  0]MapCheck: New page: 맵 체크
+[2017.07.06-05.50.14:480][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.06-05.50.15:242][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.06-05.50.15:256][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.06-05.50.15:309][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.06-05.50.15:425][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 115.483ms.
+[2017.07.06-05.50.15:425][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.041
+[2017.07.06-05.50.15:672][  0]LogCollectionManager: Loaded 0 collections in 0.002992 seconds
+[2017.07.06-05.50.15:935][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Collections/' took 0.01s
+[2017.07.06-05.50.15:935][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/HowTo_PlayerInput/Content/Developers/LEEJIU/Collections/' took 0.01s
+[2017.07.06-05.50.15:935][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/HowTo_PlayerInput/Content/Collections/' took 0.01s
+[2017.07.06-05.50.15:935][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.06-05.50.15:949][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2329 classes and 491 folders.
+[2017.07.06-05.50.16:063][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.07.06-05.50.16:134][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.07.06-05.50.16:223][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.07.06-05.50.16:299][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.06-05.50.16:306][  0]LogSlate: Took 0.000456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.06-05.50.16:317][  0]LogSlate: Took 0.007635 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.07.06-05.50.16:320][  0]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.06-05.50.16:336][  0]LogSlate: Took 0.000536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.06-05.50.16:423][  0]LogRenderer: Reallocating scene render targets to support 828x372 NumSamples 1 (Frame:1).
+[2017.07.06-05.50.16:515][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.06-05.50.16:649][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.07.06-05.50.16:771][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.07.06-05.50.16:771][  0]LogLoad: (Engine Initialization) Total time: 44.60 seconds
+[2017.07.06-05.50.16:771][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.07.06-05.50.16:771][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.06-05.50.16:771][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.06-05.50.17:122][  0]LogOcInput: OculusInput pre-init called
+[2017.07.06-05.50.17:122][  0]LogHMD: Starting GearVRController plugin
+[2017.07.06-05.50.18:218][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.06-05.50.18:263][  1]LogAssetRegistry: Asset discovery search completed in 31.0157 seconds
+[2017.07.06-05.50.18:265][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.06-05.50.18:265][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.07.06-05.51.55:185][ 51]LogSlate: Took 0.000493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.06-05.51.55:287][ 51]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.06-05.52.05:838][370]Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" -game -rocket -progress
+[2017.07.06-05.52.06:144][370]Discovering modules, targets and source code for project...
+[2017.07.06-05.52.12:467][370]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.06-05.52.15:099][370]LogHotReload: Recompiling module HowTo_PlayerInput...
+[2017.07.06-05.52.15:103][370]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.07.06-05.52.15:157][370]Candidate modules for hot reload:
+[2017.07.06-05.52.15:157][370]  HowTo_PlayerInput
+[2017.07.06-05.52.15:157][370]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -Module HowTo_PlayerInput Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-05.52.35:446][370]Performing full C++ include scan (hot reloading a new target)
+Compiling game modules for hot reload
+Parsing headers for HowTo_PlayerInputEditor
+  Running UnrealHeaderTool "D:\UnrealStudy\HowTo_PlayerInput\HowTo_PlayerInput.uproject" "D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\HowTo_PlayerInputEditor\Development\HowTo_PlayerInputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for HowTo_PlayerInputEditor in 6.2627527 seconds
+Performing 8 actions (2 in parallel)
+[2/8] Resource ModuleVersionResource.rc.inl
+SharedPCH.Engine.cpp
+[3/8] Resource PCLaunch.rc
+MyPawn.cpp
+HowTo_PlayerInput.cpp
+HowTo_PlayerInput.generated.cpp
+[7/8] Link UE4Editor-HowTo_PlayerInput.dll
+[8/8] Link UE4Editor-HowTo_PlayerInput.lib
+   D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+   D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+Total build time: 19.79 seconds (Local executor: 6.79 seconds)
+
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: New page: 컴파일 - 2017. 7. 6. 오후 11:52:35
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 Performing full C++ include scan (hot reloading a new target)
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 Parsing headers for HowTo_PlayerInputEditor
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\HowTo_PlayerInput\HowTo_PlayerInput.uproject" "D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\HowTo_PlayerInputEditor\Development\HowTo_PlayerInputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 Reflection code generated for HowTo_PlayerInputEditor in 6.2627527 seconds
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 Performing 8 actions (2 in parallel)
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 [2/8] Resource ModuleVersionResource.rc.inl
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 SharedPCH.Engine.cpp
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 [3/8] Resource PCLaunch.rc
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 MyPawn.cpp
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 HowTo_PlayerInput.cpp
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 HowTo_PlayerInput.generated.cpp
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 [7/8] Link UE4Editor-HowTo_PlayerInput.dll
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 [8/8] Link UE4Editor-HowTo_PlayerInput.lib
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-05.52.35:447][370]CompilerResultsLog: 정보 Total build time: 19.79 seconds (Local executor: 6.79 seconds)
+[2017.07.06-05.52.35:447][370]LogMainFrame: MainFrame: Module compiling took 20.345 seconds
+[2017.07.06-05.52.35:448][370]Reloading module HowTo_PlayerInput after successful compile.
+[2017.07.06-05.52.35:573][370]LogContentBrowser: Native class hierarchy updated for 'HowTo_PlayerInput' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2017.07.06-05.52.35:599][370]LogContentBrowser: Native class hierarchy populated in 0.0217 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-05.52.58:000][780]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.h'
+[2017.07.06-05.52.58:101][780]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.cpp'
+[2017.07.06-05.57.01:098][632]Candidate modules for hot reload:
+[2017.07.06-05.57.01:099][632]  HowTo_PlayerInput
+[2017.07.06-05.57.01:099][632]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -ModuleWithSuffix HowTo_PlayerInput 9413 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-05.57.01:102][632]Warning: Starting HotReload took  0.0s.
+[2017.07.06-05.57.16:832][243]CompilerResultsLog: New page: 컴파일 - 2017. 7. 6. 오후 11:57:16
+[2017.07.06-05.57.16:832][243]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-05.57.16:832][243]CompilerResultsLog: 정보 Target is up to date
+[2017.07.06-05.57.16:832][243]CompilerResultsLog: 정보 Total build time: 14.65 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2017.07.06-05.57.16:832][243]LogMainFrame: MainFrame: Module compiling took 15.739 seconds
+[2017.07.06-05.57.16:996][243]LogContentBrowser: Native class hierarchy populated in 0.0414 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-05.57.16:996][243]Display: HotReload took 15.9s.
+[2017.07.06-05.57.18:184][290]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.06-05.57.18:445][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-05.57.18:445][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-05.57.18:446][290]PIE: New page: PIE 세션: Minimal_Default (2017. 7. 6. 오후 11:57:18)
+[2017.07.06-05.57.18:446][290]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.06-05.57.18:473][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026936s)
+[2017.07.06-05.57.18:475][290]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.06-05.57.18:476][290]LogPlayLevel: PIE: World Init took: (0.003011s)
+[2017.07.06-05.57.18:477][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.030677s)
+[2017.07.06-05.57.18:561][290]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.06-05.57.18:580][290]LogInit: FAudioDevice initialized.
+[2017.07.06-05.57.18:637][290]LogLoad: Game class is 'GameModeBase'
+[2017.07.06-05.57.18:643][290]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.07.06-14.57.18
+[2017.07.06-05.57.18:643][290]LogWorld: Bringing up level for play took: 0.004455
+[2017.07.06-05.57.18:842][290]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0067 seconds. Added 11 classes and 0 folders.
+[2017.07.06-05.57.18:845][290]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.716
+[2017.07.06-05.57.18:846][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-05.57.57:767][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-05.57.57:815][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-05.59.01:992][275]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.06-05.59.04:358][282]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HowToPlayerInput
+[2017.07.06-05.59.04:358][282]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.06-05.59.04:358][282]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.06-05.59.04:358][282]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.06-05.59.04:406][283]LogTemp: BranchPath = LEEJIU/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LEEJIU/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.06-05.59.04:468][284]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\LEEJIU\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.06-06.01.03:343][495]LogEditor: Attempting to add actor of class 'MyPawn' to level at -140.00,20.00,80.00
+[2017.07.06-06.01.04:282][495]LogEditor: Attempting to add actor of class 'MyPawn' to level at -610.00,530.00,80.00
+[2017.07.06-06.01.29:497][845]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.06-06.01.38:913][872]LogSavePackage: Save=303.18ms
+[2017.07.06-06.01.38:913][872]LogSavePackage: Moving 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Minimal_Default_Auto1EABA09D14E5F6D5D988BFEB545EB3CB6.tmp' to 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.07.06-06.01.38:915][872]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.07.06-06.01.38:920][872]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.384
+[2017.07.06-06.01.38:920][872]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.384
+[2017.07.06-06.02.35:719][137]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.h'
+[2017.07.06-06.02.35:837][137]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.cpp'
+[2017.07.06-06.02.53:246][293]Candidate modules for hot reload:
+[2017.07.06-06.02.53:246][293]  HowTo_PlayerInput
+[2017.07.06-06.02.53:246][293]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -ModuleWithSuffix HowTo_PlayerInput 1844 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-06.02.53:250][293]Warning: Starting HotReload took  0.0s.
+[2017.07.06-06.03.06:580][669]CompilerResultsLog: New page: 컴파일 - 2017. 7. 7. 오전 12:03:06
+[2017.07.06-06.03.06:580][669]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-06.03.06:580][669]CompilerResultsLog: 정보 Target is up to date
+[2017.07.06-06.03.06:580][669]CompilerResultsLog: 정보 Total build time: 12.42 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2017.07.06-06.03.06:580][669]LogMainFrame: MainFrame: Module compiling took 13.341 seconds
+[2017.07.06-06.03.06:706][669]LogContentBrowser: Native class hierarchy populated in 0.0391 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-06.03.06:706][669]Display: HotReload took 13.5s.
+[2017.07.06-06.03.11:163][821]LogEditorActor: Deleted Actor: MyPawn
+[2017.07.06-06.03.11:235][821]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2017.07.06-06.03.12:448][862]LogEditor: Attempting to add actor of class 'MyPawn' to level at 240.00,-180.00,30.00
+[2017.07.06-06.03.13:050][879]LogEditor: Attempting to add actor of class 'MyPawn' to level at 40.00,-40.00,30.00
+[2017.07.06-06.03.26:867][350]LogEditorActor: Deleted Actor: MyPawn
+[2017.07.06-06.03.26:934][350]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2017.07.06-06.03.43:474][956]Candidate modules for hot reload:
+[2017.07.06-06.03.43:474][956]  HowTo_PlayerInput
+[2017.07.06-06.03.43:474][956]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -ModuleWithSuffix HowTo_PlayerInput 5956 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-06.03.43:477][956]Warning: Starting HotReload took  0.0s.
+[2017.07.06-06.03.56:059][ 78]CompilerResultsLog: New page: 컴파일 - 2017. 7. 7. 오전 12:03:56
+[2017.07.06-06.03.56:059][ 78]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-06.03.56:059][ 78]CompilerResultsLog: 정보 Target is up to date
+[2017.07.06-06.03.56:059][ 78]CompilerResultsLog: 정보 Total build time: 11.58 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2017.07.06-06.03.56:059][ 78]LogMainFrame: MainFrame: Module compiling took 12.593 seconds
+[2017.07.06-06.03.56:244][ 78]LogContentBrowser: Native class hierarchy populated in 0.0745 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-06.03.56:244][ 78]Display: HotReload took 12.8s.
+[2017.07.06-06.04.35:053][245]LogEditor: Attempting to add actor of class 'MyPawn' to level at 230.00,-140.00,30.00
+[2017.07.06-06.04.35:962][273]LogEditor: Attempting to add actor of class 'MyPawn' to level at 100.00,10.00,30.00
+[2017.07.06-06.04.46:495][586]LogVSAccessor:Warning: Couldn't goto line number '1' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.h'
+[2017.07.06-06.05.45:253][727]LogActor:Warning: VREditorButton /Engine/Transient.World_4:PersistentLevel.VREditorButton_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.07.06-06.06.05:100][239]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.h'
+[2017.07.06-06.06.05:236][239]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.cpp'
+[2017.07.06-06.07.33:192][767]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Black.ttf' (162K)
+[2017.07.06-06.09.46:151][689]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.07.06-06.10.00:802][275]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.h'
+[2017.07.06-06.10.00:894][275]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/UnrealStudy/HowTo_PlayerInput/Source/HowTo_PlayerInput/MyPawn.cpp'
+[2017.07.06-06.11.45:714][220]LogSavePackage: Save=205.35ms
+[2017.07.06-06.11.45:714][220]LogSavePackage: Moving 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Minimal_Default_Auto291C235EC4696D700985C5CB9B66BC8B7.tmp' to 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.07.06-06.11.45:715][220]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.07.06-06.11.45:718][220]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 3.559
+[2017.07.06-06.11.45:718][220]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.559
+[2017.07.06-06.13.35:438][943]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.06-06.14.53:309][297]Candidate modules for hot reload:
+[2017.07.06-06.14.53:309][297]  HowTo_PlayerInput
+[2017.07.06-06.14.53:309][297]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -ModuleWithSuffix HowTo_PlayerInput 1386 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-06.14.53:311][297]Warning: Starting HotReload took  0.0s.
+[2017.07.06-06.15.15:874][ 94]CompilerResultsLog: New page: 컴파일 - 2017. 7. 7. 오전 12:15:15
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보 Parsing headers for HowTo_PlayerInputEditor
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\HowTo_PlayerInput\HowTo_PlayerInput.uproject" "D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\HowTo_PlayerInputEditor\Development\HowTo_PlayerInputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보 Reflection code generated for HowTo_PlayerInputEditor in 10.6189816 seconds
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보 Performing 3 actions (2 in parallel)
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보 MyPawn.cpp
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보 [2/3] Link UE4Editor-HowTo_PlayerInput-1386.dll
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보 [3/3] Link UE4Editor-HowTo_PlayerInput-1386.lib
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1386.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1386.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-06.15.15:875][ 94]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1386.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-1386.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-06.15.15:876][ 94]CompilerResultsLog: 정보 Total build time: 21.86 seconds (Local executor: 3.46 seconds)
+[2017.07.06-06.15.15:876][ 94]LogMainFrame: MainFrame: Module compiling took 22.581 seconds
+[2017.07.06-06.15.16:367][ 94]LogClass: Could not find existing class MyPawn in package /Script/HowTo_PlayerInput for HotReload, assuming new class
+[2017.07.06-06.15.16:379][ 94]LogHotReload: Re-instancing MyPawn after hot-reload.
+[2017.07.06-06.15.16:490][ 94]LogContentBrowser: Native class hierarchy updated for 'HowTo_PlayerInput' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.07.06-06.15.16:492][ 94]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.06-06.15.16:509][ 94]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-06.15.16:509][ 94]Display: HotReload took 23.2s.
+[2017.07.06-06.15.18:662][112]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.06-06.21.46:419][ 14]LogSavePackage: Save=108.72ms
+[2017.07.06-06.21.46:419][ 14]LogSavePackage: Moving 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Minimal_Default_Auto3D728ED9B47A9937184F1478DF5650507.tmp' to 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.07.06-06.21.46:421][ 14]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.07.06-06.21.46:424][ 14]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.169
+[2017.07.06-06.21.46:424][ 14]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
+[2017.07.06-06.36.04:968][632]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.06-06.36.05:954][635]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HowToPlayerInput
+[2017.07.06-06.36.05:954][635]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.06-06.36.05:954][635]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.06-06.36.05:954][635]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.06-06.36.05:954][635]LogTemp: BranchPath = LEEJIU/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LEEJIU/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.06-06.36.06:015][637]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\LEEJIU\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.06-06.38.05:691][572]LogEditorActor: Deleted Actor: PlayerStart
+[2017.07.06-06.38.05:760][572]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2017.07.06-06.38.35:094][896]LogSavePackage: Save=104.14ms
+[2017.07.06-06.38.35:094][896]LogSavePackage: Moving 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Minimal_Default_Auto44FEB61AA4A1B89CB42BD4484038EB9AF.tmp' to 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2017.07.06-06.38.35:095][896]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/HowTo_PlayerInput/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2017.07.06-06.38.35:101][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.145
+[2017.07.06-06.38.35:101][896]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2017.07.06-07.08.50:741][381]Candidate modules for hot reload:
+[2017.07.06-07.08.50:741][381]  HowTo_PlayerInput
+[2017.07.06-07.08.50:741][381]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -ModuleWithSuffix HowTo_PlayerInput 5752 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-07.08.50:742][381]Warning: Starting HotReload took  0.0s.
+[2017.07.06-07.09.38:838][318]CompilerResultsLog: New page: 컴파일 - 2017. 7. 7. 오전 1:09:38
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 Parsing headers for HowTo_PlayerInputEditor
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\HowTo_PlayerInput\HowTo_PlayerInput.uproject" "D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\HowTo_PlayerInputEditor\Development\HowTo_PlayerInputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 Reflection code generated for HowTo_PlayerInputEditor in 9.2226913 seconds
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 Performing 4 actions (2 in parallel)
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 HowTo_PlayerInput.generated.cpp
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 MyPawn.cpp
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 [3/4] Link UE4Editor-HowTo_PlayerInput-5752.dll
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보 [4/4] Link UE4Editor-HowTo_PlayerInput-5752.lib
+[2017.07.06-07.09.38:839][318]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-5752.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-5752.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-07.09.38:840][318]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-5752.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-5752.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-07.09.38:840][318]CompilerResultsLog: 정보 Total build time: 47.72 seconds (Local executor: 31.65 seconds)
+[2017.07.06-07.09.38:840][318]LogMainFrame: MainFrame: Module compiling took 48.107 seconds
+[2017.07.06-07.09.39:052][318]LogClass: Could not find existing class MyPawn in package /Script/HowTo_PlayerInput for HotReload, assuming new class
+[2017.07.06-07.09.39:058][318]LogHotReload: Re-instancing MyPawn after hot-reload.
+[2017.07.06-07.09.39:225][318]LogContentBrowser: Native class hierarchy updated for 'HowTo_PlayerInput' in 0.0049 seconds. Added 1 classes and 2 folders.
+[2017.07.06-07.09.39:227][318]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.06-07.09.39:255][318]LogContentBrowser: Native class hierarchy populated in 0.0233 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-07.09.39:255][318]Display: HotReload took 48.5s.
+[2017.07.06-07.10.08:926][662]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.06-07.10.08:958][662]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.10.08:958][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-07.10.08:959][662]PIE: New page: PIE 세션: Minimal_Default (2017. 7. 7. 오전 1:10:08)
+[2017.07.06-07.10.08:959][662]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.06-07.10.08:981][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021581s)
+[2017.07.06-07.10.08:984][662]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.06-07.10.08:984][662]LogPlayLevel: PIE: World Init took: (0.002899s)
+[2017.07.06-07.10.08:985][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.025339s)
+[2017.07.06-07.10.09:022][662]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.06-07.10.09:039][662]LogInit: FAudioDevice initialized.
+[2017.07.06-07.10.09:084][662]LogLoad: Game class is 'GameModeBase'
+[2017.07.06-07.10.09:087][662]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.07.06-16.10.09
+[2017.07.06-07.10.09:089][662]LogWorld: Bringing up level for play took: 0.004079
+[2017.07.06-07.10.09:091][662]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.961
+[2017.07.06-07.10.09:091][662]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.10.26:551][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.10.26:602][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.11.18:140][771]Candidate modules for hot reload:
+[2017.07.06-07.11.18:140][771]  HowTo_PlayerInput
+[2017.07.06-07.11.18:140][771]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -ModuleWithSuffix HowTo_PlayerInput 6460 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-07.11.18:143][771]Warning: Starting HotReload took  0.0s.
+[2017.07.06-07.12.38:437][484]CompilerResultsLog: New page: 컴파일 - 2017. 7. 7. 오전 1:12:38
+[2017.07.06-07.12.38:437][484]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-07.12.38:437][484]CompilerResultsLog: 정보 Parsing headers for HowTo_PlayerInputEditor
+[2017.07.06-07.12.38:437][484]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\HowTo_PlayerInput\HowTo_PlayerInput.uproject" "D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\HowTo_PlayerInputEditor\Development\HowTo_PlayerInputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.06-07.12.38:437][484]CompilerResultsLog: 정보 Reflection code generated for HowTo_PlayerInputEditor in 14.4992706 seconds
+[2017.07.06-07.12.38:437][484]CompilerResultsLog: 정보 Performing 3 actions (2 in parallel)
+[2017.07.06-07.12.38:437][484]CompilerResultsLog: 정보 MyPawn.cpp
+[2017.07.06-07.12.38:438][484]CompilerResultsLog: 정보 [2/3] Link UE4Editor-HowTo_PlayerInput-6460.dll
+[2017.07.06-07.12.38:438][484]CompilerResultsLog: 정보 [3/3] Link UE4Editor-HowTo_PlayerInput-6460.lib
+[2017.07.06-07.12.38:438][484]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-6460.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-6460.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-07.12.38:438][484]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-6460.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-6460.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-07.12.38:438][484]CompilerResultsLog: 정보 Total build time: 79.43 seconds (Local executor: 54.72 seconds)
+[2017.07.06-07.12.38:438][484]LogMainFrame: MainFrame: Module compiling took 80.308 seconds
+[2017.07.06-07.12.38:733][484]LogContentBrowser: Native class hierarchy updated for 'HowTo_PlayerInput' in 0.0041 seconds. Added 1 classes and 2 folders.
+[2017.07.06-07.12.38:735][484]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.06-07.12.38:861][484]LogContentBrowser: Native class hierarchy populated in 0.0310 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-07.12.38:861][484]Display: HotReload took 80.7s.
+[2017.07.06-07.12.40:356][539]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.06-07.12.40:403][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.12.40:403][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-07.12.40:403][539]PIE: New page: PIE 세션: Minimal_Default (2017. 7. 7. 오전 1:12:40)
+[2017.07.06-07.12.40:403][539]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.06-07.12.40:427][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023714s)
+[2017.07.06-07.12.40:429][539]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.06-07.12.40:429][539]LogPlayLevel: PIE: World Init took: (0.002293s)
+[2017.07.06-07.12.40:430][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.026500s)
+[2017.07.06-07.12.40:494][539]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.06-07.12.40:512][539]LogInit: FAudioDevice initialized.
+[2017.07.06-07.12.40:554][539]LogLoad: Game class is 'GameModeBase'
+[2017.07.06-07.12.40:558][539]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.07.06-16.12.40
+[2017.07.06-07.12.40:559][539]LogWorld: Bringing up level for play took: 0.003928
+[2017.07.06-07.12.40:561][539]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.431
+[2017.07.06-07.12.40:561][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.12.49:739][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.12.49:785][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.14.47:159][336]Candidate modules for hot reload:
+[2017.07.06-07.14.47:159][336]  HowTo_PlayerInput
+[2017.07.06-07.14.47:160][336]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe HowTo_PlayerInput -ModuleWithSuffix HowTo_PlayerInput 284 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/HowTo_PlayerInput/HowTo_PlayerInput.uproject" ]
+[2017.07.06-07.14.47:162][336]Warning: Starting HotReload took  0.0s.
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: New page: 컴파일 - 2017. 7. 7. 오전 1:15:24
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보 Parsing headers for HowTo_PlayerInputEditor
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\HowTo_PlayerInput\HowTo_PlayerInput.uproject" "D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\HowTo_PlayerInputEditor\Development\HowTo_PlayerInputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보 Reflection code generated for HowTo_PlayerInputEditor in 12.1339341 seconds
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보 Performing 3 actions (2 in parallel)
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보 MyPawn.cpp
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보 [2/3] Link UE4Editor-HowTo_PlayerInput-284.dll
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보 [3/3] Link UE4Editor-HowTo_PlayerInput-284.lib
+[2017.07.06-07.15.24:865][814]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-284.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-284.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-07.15.24:866][814]CompilerResultsLog: 정보    D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-284.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-284.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.06-07.15.24:866][814]CompilerResultsLog: 정보 Total build time: 37.01 seconds (Local executor: 14.62 seconds)
+[2017.07.06-07.15.24:866][814]LogMainFrame: MainFrame: Module compiling took 37.719 seconds
+[2017.07.06-07.15.25:099][814]LogContentBrowser: Native class hierarchy updated for 'HowTo_PlayerInput' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2017.07.06-07.15.25:101][814]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.06-07.15.25:176][814]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2332 classes and 497 folders.
+[2017.07.06-07.15.25:176][814]Display: HotReload took 38.0s.
+[2017.07.06-07.15.46:597][742]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.06-07.15.46:682][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.15.46:682][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-07.15.46:682][742]PIE: New page: PIE 세션: Minimal_Default (2017. 7. 7. 오전 1:15:46)
+[2017.07.06-07.15.46:682][742]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.06-07.15.46:710][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027424s)
+[2017.07.06-07.15.46:712][742]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.06-07.15.46:713][742]LogPlayLevel: PIE: World Init took: (0.002549s)
+[2017.07.06-07.15.46:713][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.030640s)
+[2017.07.06-07.15.46:773][742]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.06-07.15.46:788][742]LogInit: FAudioDevice initialized.
+[2017.07.06-07.15.46:829][742]LogLoad: Game class is 'GameModeBase'
+[2017.07.06-07.15.46:832][742]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.07.06-16.15.46
+[2017.07.06-07.15.46:833][742]LogWorld: Bringing up level for play took: 0.002505
+[2017.07.06-07.15.46:834][742]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.705
+[2017.07.06-07.15.46:835][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.16.05:966][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.16.06:010][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.06-07.20.01:350][196]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.06-07.20.22:769][ 83]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.06-07.20.23:485][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.06-07.20.24:116][134]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.06-07.22.09:141][738]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.06-07.22.11:926][822]LogSavePackage: Save=141.24ms
+[2017.07.06-07.22.11:926][822]LogSavePackage: Moving 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Minimal_DefaultC67501EE494C93EC86A701BCBA1A5592.tmp' to 'D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.07.06-07.22.11:930][822]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/HowTo_PlayerInput/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.07.06-07.22.11:972][822]LogFileHelpers: Saving map 'Minimal_Default' took 0.328
+[2017.07.06-07.22.17:274][942]LogGameProjectGeneration:Warning: Failed to find a suffix for the default project name
+[2017.07.06-07.22.25:516][202]LogGameProjectGeneration: Created new project with 4 files (plus project files)
+[2017.07.06-07.22.25:556][203]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.06-07.22.26:139][204]Cmd: QUIT_EDITOR
+[2017.07.06-07.22.26:351][204]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.07.06-07.22.26:388][204]LogExit: Preparing to exit.
+[2017.07.06-07.22.27:453][204]LogExit: Editor shut down
+[2017.07.06-07.22.27:510][204]LogExit: Transaction tracking system shut down
+[2017.07.06-07.22.27:837][204]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.06-07.22.27:838][204]LogExit: Object subsystem successfully closed.
+[2017.07.06-07.22.27:921][204]LogD3D11RHI: Shutdown
+[2017.07.06-07.22.27:921][204]LogD3D11RHI: CleanupD3DDevice
+[2017.07.06-07.22.28:235][204]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module HowTo_PlayerInput (536)
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (533)
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.06-07.22.28:327][204]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.06-07.22.28:328][204]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.06-07.22.28:346][204]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.06-07.22.28:346][204]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.06-07.22.28:346][204]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.06-07.22.28:346][204]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/HowTo_PlayerInput/Content/Collections/' was aborted.
+[2017.07.06-07.22.28:346][204]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/HowTo_PlayerInput/Content/Developers/LEEJIU/Collections/' was aborted.
+[2017.07.06-07.22.28:346][204]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/HowTo_PlayerInput/Saved/Collections/' was aborted.
+[2017.07.06-07.22.28:346][204]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.06-07.22.28:347][204]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.06-07.22.28:347][204]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.06-07.22.28:348][204]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.06-07.22.28:348][204]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.06-07.22.28:348][204]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.06-07.22.28:348][204]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.06-07.22.28:348][204]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.06-07.22.28:349][204]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.06-07.22.28:349][204]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.06-07.22.28:349][204]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.06-07.22.28:350][204]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.06-07.22.28:350][204]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.06-07.22.28:350][204]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.06-07.22.28:353][204]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.06-07.22.28:353][204]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.06-07.22.28:353][204]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.06-07.22.28:353][204]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.06-07.22.28:353][204]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.06-07.22.28:354][204]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.06-07.22.28:354][204]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.06-07.22.28:354][204]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.06-07.22.28:354][204]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.06-07.22.28:354][204]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.06-07.22.28:354][204]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.06-07.22.28:355][204]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.06-07.22.28:355][204]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.06-07.22.28:355][204]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.06-07.22.28:355][204]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.06-07.22.28:355][204]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.06-07.22.28:357][204]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.06-07.22.28:358][204]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.06-07.22.28:359][204]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.06-07.22.28:359][204]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.06-07.22.28:359][204]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.06-07.22.28:359][204]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.06-07.22.28:359][204]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.06-07.22.28:359][204]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.06-07.22.28:582][204]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.06-07.22.28:582][204]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.06-07.22.28:582][204]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.06-07.22.28:584][204]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.06-07.22.28:585][204]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.06-07.22.28:585][204]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.06-07.22.28:586][204]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.06-07.22.28:586][204]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.06-07.22.28:587][204]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.06-07.22.28:588][204]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.06-07.22.28:588][204]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.06-07.22.28:589][204]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.06-07.22.28:589][204]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.06-07.22.28:589][204]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.06-07.22.28:590][204]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.06-07.22.28:590][204]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.06-07.22.28:590][204]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.06-07.22.28:591][204]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.06-07.22.28:592][204]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.06-07.22.28:592][204]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.06-07.22.28:593][204]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.06-07.22.28:594][204]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.06-07.22.28:595][204]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.06-07.22.28:596][204]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.06-07.22.28:651][204]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.06-07.22.28:652][204]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.06-07.22.28:653][204]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.06-07.22.28:655][204]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.06-07.22.28:656][204]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.06-07.22.28:656][204]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.06-07.22.28:658][204]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.06-07.22.28:660][204]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.06-07.22.28:660][204]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.06-07.22.28:660][204]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.06-07.22.28:661][204]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.06-07.22.28:666][204]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.06-07.22.28:666][204]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.06-07.22.28:667][204]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.06-07.22.28:669][204]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.06-07.22.28:669][204]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.06-07.22.28:669][204]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.06-07.22.28:670][204]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.06-07.22.28:670][204]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.06-07.22.28:670][204]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.06-07.22.28:670][204]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.06-07.22.28:673][204]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.06-07.22.28:674][204]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.06-07.22.28:757][204]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.06-07.22.28:758][204]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.06-07.22.28:758][204]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.06-07.22.28:758][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.06-07.22.28:758][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.06-07.22.28:759][204]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.06-07.22.28:761][204]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.06-07.22.28:761][204]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.06-07.22.28:762][204]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.06-07.22.28:762][204]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.06-07.22.28:762][204]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.06-07.22.28:762][204]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.06-07.22.28:762][204]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.06-07.22.28:762][204]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.06-07.22.28:762][204]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.06-07.22.28:764][204]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.06-07.22.28:765][204]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.06-07.22.28:765][204]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.06-07.22.28:765][204]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.06-07.22.28:765][204]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.06-07.22.28:766][204]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.06-07.22.28:768][204]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.06-07.22.28:769][204]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.06-07.22.28:770][204]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.06-07.22.28:770][204]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.06-07.22.28:770][204]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.06-07.22.28:770][204]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.06-07.22.28:771][204]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.06-07.22.28:771][204]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.06-07.22.28:775][204]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.06-07.22.28:776][204]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.06-07.22.28:776][204]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.06-07.22.28:777][204]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.06-07.22.28:777][204]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.06-07.22.28:777][204]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.06-07.22.28:777][204]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.06-07.22.28:777][204]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.06-07.22.28:778][204]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.06-07.22.28:879][204]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.06-07.22.28:980][204]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.06-07.22.28:981][204]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.06-07.22.28:981][204]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.06-07.22.28:981][204]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.06-07.22.28:983][204]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.06-07.22.28:986][204]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.06-07.22.28:990][204]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.06-07.22.28:990][204]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.06-07.22.28:991][204]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.06-07.22.28:991][204]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.06-07.22.28:992][204]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.06-07.22.28:992][204]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.06-07.22.28:994][204]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.06-07.22.28:994][204]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.06-07.22.28:995][204]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.06-07.22.28:996][204]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.06-07.22.28:998][204]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.06-07.22.28:998][204]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.06-07.22.29:001][204]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.06-07.22.29:001][204]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.06-07.22.29:003][204]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.06-07.22.29:004][204]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.06-07.22.29:006][204]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.06-07.22.29:008][204]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.06-07.22.29:013][204]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.06-07.22.29:013][204]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.06-07.22.29:013][204]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.06-07.22.29:017][204]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.06-07.22.29:017][204]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.06-07.22.29:029][204]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.06-07.22.29:029][204]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.06-07.22.29:029][204]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.06-07.22.29:029][204]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.06-07.22.29:029][204]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.06-07.22.29:029][204]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.06-07.22.29:308][204]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.06-07.22.29:308][204]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/HowTo_PlayerInput/Content/' was aborted.
+[2017.07.06-07.22.29:308][204]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.06-07.22.29:308][204]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.06-07.22.29:320][204]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.06-07.22.29:330][204]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.06-07.22.29:330][204]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.06-07.22.29:330][204]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.06-07.22.29:330][204]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.06-07.22.29:331][204]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.06-07.22.29:332][204]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.06-07.22.29:332][204]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.06-07.22.29:333][204]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.06-07.22.29:365][204]LogDerivedDataCache: Shutdown
+[2017.07.06-07.22.29:365][204]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.06-07.22.29:365][204]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.06-07.22.29:367][204]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.06-07.22.29:367][204]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.06-07.22.29:368][204]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.06-07.22.29:369][204]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.06-07.22.29:370][204]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.06-07.22.29:370][204]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.06-07.22.29:370][204]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.06-07.22.29:370][204]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.06-07.22.29:371][204]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.06-07.22.29:372][204]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.06-07.22.29:372][204]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.06-07.22.29:372][204]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.06-07.22.29:372][204]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.06-07.22.29:372][204]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.06-07.22.29:372][204]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.06-07.22.29:372][204]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.06-07.22.29:373][204]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.06-07.22.29:373][204]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.06-07.22.29:373][204]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.06-07.22.29:373][204]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.06-07.22.29:374][204]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.06-07.22.29:374][204]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.06-07.22.29:374][204]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.06-07.22.29:375][204]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.06-07.22.29:376][204]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.06-07.22.29:377][204]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.06-07.22.29:377][204]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.06-07.22.29:378][204]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.06-07.22.29:379][204]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.06-07.22.29:379][204]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.06-07.22.29:379][204]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.06-07.22.29:381][204]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.06-07.22.29:383][204]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.06-07.22.29:383][204]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.06-07.22.29:383][204]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE663A962-4D11-B6CD-504A-0594089A521F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=6309f6d84a95ae2fd4720a8936598cbb%7C47c8acbb412c4c59ac4a2cbb28f674b9%7Cc22bf75b-b27c-4543-aa8c-1a82ec03a7f1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.06-07.22.29:415][204]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.06-07.22.29:421][204]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.06-07.22.29:422][204]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.06-07.22.29:423][204]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.06-07.22.29:424][204]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.06-07.22.29:425][204]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.06-07.22.29:425][204]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.06-07.22.29:425][204]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.06-07.22.29:425][204]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.06-07.22.29:449][204]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.06-07.22.29:451][204]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.06-07.22.29:454][204]LogExit: Exiting.
+[2017.07.06-07.22.29:493][204]Log file closed, 07/06/17 16:22:29

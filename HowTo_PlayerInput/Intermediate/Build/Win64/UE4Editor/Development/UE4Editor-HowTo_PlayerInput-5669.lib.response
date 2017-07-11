@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HowTo_PlayerInput-5669.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\HowTo_PlayerInput\HowTo_PlayerInput.cpp.obj"
+"D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\HowTo_PlayerInput\MyPawn.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\HowTo_PlayerInput\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\UnrealStudy\HowTo_PlayerInput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HowTo_PlayerInput-5669.lib"
