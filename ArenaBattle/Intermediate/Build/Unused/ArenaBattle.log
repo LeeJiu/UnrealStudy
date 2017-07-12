@@ -1,0 +1,18 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for ArenaBattleEditor
+    Running UnrealHeaderTool "D:\UnrealStudy\ArenaBattle\ArenaBattle.uproject" "D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ArenaBattleEditor in 9.3926668 seconds
+  Performing 7 actions (2 in parallel)
+  WebConnection.cpp
+  WebService.generated.cpp
+  [4/7] Link UE4Editor-WebService-5855.lib
+  ABGameInstance.cpp
+     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.exp 개체를 생성하고 있습니다.
+  [5/7] Link UE4Editor-WebService-5855.dll
+     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.suppressed.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.suppressed.exp 개체를 생성하고 있습니다.
+  [6/7] Link UE4Editor-ArenaBattle-1161.dll
+     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.suppressed.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.suppressed.exp 개체를 생성하고 있습니다.
+  [7/7] Link UE4Editor-ArenaBattle-1161.lib
+     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.exp 개체를 생성하고 있습니다.
+  Deploying ArenaBattleEditor Win64 Development...
+  Total build time: 25.04 seconds (Local executor: 8.37 seconds)

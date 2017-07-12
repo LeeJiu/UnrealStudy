@@ -1,0 +1,674 @@
+﻿Log file open, 07/12/17 21:10:25
+LogInit:Display: Running engine for game: ArenaBattle
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1967473005) SRandInit(1967473005).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.093484
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.12-12.10.26:096][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.12-12.10.26:096][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.12-12.10.26:124][  0]LogInit: Computer: LEEJIU
+[2017.07.12-12.10.26:124][  0]LogInit: User: LEEJIU
+[2017.07.12-12.10.26:124][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.12-12.10.26:124][  0]LogInit: High frequency timer resolution =2.435882 MHz
+[2017.07.12-12.10.26:124][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.12-12.10.26:124][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.12-12.10.26:124][  0]LogMemory: Process Physical Memory: 272.53 MB used, 272.53 MB peak
+[2017.07.12-12.10.26:124][  0]LogMemory: Process Virtual Memory: 258.36 MB used, 258.36 MB peak
+[2017.07.12-12.10.26:124][  0]LogMemory: Physical Memory: 4338.08 MB used,  3761.32 MB free, 8099.39 MB total
+[2017.07.12-12.10.26:124][  0]LogMemory: Virtual Memory: 633.95 MB used,  3761.32 MB free, 134217728.00 MB total
+[2017.07.12-12.10.26:584][  0]LogInit: Using OS detected language (ko-KR).
+[2017.07.12-12.10.26:584][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.07.12-12.10.26:652][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.07.12-12.10.31:288][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.12-12.10.32:178][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 11_0)
+[2017.07.12-12.10.32:178][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.07.12-12.10.32:231][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2017.07.12-12.10.32:231][  0]LogD3D11RHI:       2000/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.07.12-12.10.32:235][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.12-12.10.32:235][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.12-12.10.32:235][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.07.12-12.10.32:245][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.12-12.10.32:245][  0]LogD3D11RHI:     GPU DeviceId: 0x124d (for the marketing name, search the web for "GPU Device Id")
+[2017.07.12-12.10.32:245][  0]LogWindows: EnumDisplayDevices:
+[2017.07.12-12.10.32:245][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2017.07.12-12.10.32:245][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:1)
+[2017.07.12-12.10.32:245][  0]LogWindows:    2. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2017.07.12-12.10.32:245][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.07.12-12.10.32:245][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2017.07.12-12.10.32:246][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.12-12.10.32:246][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.12-12.10.32:246][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.12-12.10.32:297][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.12-12.10.32:297][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.12-12.10.32:314][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.12-12.10.32:315][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/UnrealStudy/ArenaBattle/Intermediate/Shaders/WorkingDirectory/4832/).
+[2017.07.12-12.10.32:315][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LEEJIU/AppData/Local/Temp/UnrealShaderWorkingDir/8911099640CB2BB6AA5F0A9083E6DEF3/'.
+[2017.07.12-12.10.32:315][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.12-12.10.35:886][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.12-12.10.36:006][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.12-12.10.36:109][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.12-12.10.36:228][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.12-12.10.36:331][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.12-12.10.36:454][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.12-12.10.36:580][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.12-12.10.36:694][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.12-12.10.36:802][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.12-12.10.36:910][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.12-12.10.37:043][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.12-12.10.37:141][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.12-12.10.37:252][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.12-12.10.37:354][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.12-12.10.37:467][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.12-12.10.37:683][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.12-12.10.37:683][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.12-12.10.37:776][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.12-12.10.37:958][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.12-12.10.38:010][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.12-12.10.38:099][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.12-12.10.38:197][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.12-12.10.38:292][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.12-12.10.38:410][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.12-12.10.38:410][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.12-12.10.39:640][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.12-12.10.39:792][  0]LogDerivedDataCache: Loaded boot cache 0.15s 90MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.12-12.10.39:792][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.12-12.10.39:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealStudy/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.12-12.10.39:792][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.12-12.10.39:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealStudy/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.12-12.10.39:792][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.12-12.10.39:846][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.12-12.10.39:859][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LEEJIU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.12-12.10.39:879][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.12-12.10.39:879][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.12-12.10.39:892][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.12-12.10.39:892][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.12-12.10.40:749][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.12-12.10.41:030][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.12-12.10.41:452][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.12-12.10.41:542][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.12-12.10.41:641][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.12-12.10.41:641][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.12-12.10.41:641][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.12-12.10.43:686][  0]LogNetVersion: ArenaBattle , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 38908305)
+[2017.07.12-12.10.43:836][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2017.07.12-12.10.44:000][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.089661 seconds
+[2017.07.12-12.10.44:015][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.12-12.10.44:015][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.12-12.10.44:015][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.12-12.10.44:191][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.12-12.10.51:892][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.12-12.10.51:979][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.12-12.10.52:780][  0]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.10.52:780][  0]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.10.52:780][  0]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.10.52:780][  0]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.10.53:623][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.12-12.10.54:720][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.12-12.10.54:884][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.12-12.10.55:014][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.12-12.10.55:120][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.12-12.10.57:059][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.12-12.10.58:728][  0]LogEngine: Initializing Engine...
+[2017.07.12-12.10.58:730][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.12-12.10.59:398][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.12-12.10.59:398][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.12-12.10.59:733][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.12-12.10.59:748][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-12.10.59:772][  0]LogInit: FAudioDevice initialized.
+[2017.07.12-12.10.59:847][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.12-12.10.59:870][  0]LogInit: Texture streaming: Enabled
+[2017.07.12-12.11.00:166][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.12-12.11.01:020][  0]LogInit: Transaction tracking system initialized
+[2017.07.12-12.11.01:759][  0]BlueprintLog: New page: 에디터 로드
+[2017.07.12-12.11.04:204][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.07.12-12.11.05:868][  0]LogConsoleResponse:Display: 
+[2017.07.12-12.11.06:708][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.12-12.11.06:708][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.12-12.11.08:075][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Content/' took 0.02s
+[2017.07.12-12.11.09:556][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.12-12.11.09:556][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.12-12.11.09:566][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.12-12.11.09:655][  0]MapCheck: New page: 맵 체크
+[2017.07.12-12.11.09:655][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.12-12.11.10:265][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.12-12.11.10:266][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.12-12.11.10:285][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.12-12.11.10:334][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.12-12.11.10:438][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 103.968ms.
+[2017.07.12-12.11.10:438][  0]LogFileHelpers: Loading map 'Template_Default' took 0.882
+[2017.07.12-12.11.10:799][  0]LogCollectionManager: Loaded 0 collections in 0.002986 seconds
+[2017.07.12-12.11.10:942][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Saved/Collections/' took 0.01s
+[2017.07.12-12.11.10:942][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Content/Developers/LEEJIU/Collections/' took 0.01s
+[2017.07.12-12.11.10:942][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Content/Collections/' took 0.01s
+[2017.07.12-12.11.10:942][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.12-12.11.10:970][  0]LogContentBrowser: Native class hierarchy populated in 0.0247 seconds. Added 2331 classes and 495 folders.
+[2017.07.12-12.11.11:202][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0106 seconds. Added 0 classes and 0 folders.
+[2017.07.12-12.11.11:752][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0089 seconds. Added 0 classes and 0 folders.
+[2017.07.12-12.11.11:954][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0117 seconds. Added 1 classes and 2 folders.
+[2017.07.12-12.11.12:038][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.12-12.11.12:073][  0]LogSlate: Took 0.020243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.12-12.11.12:131][  0]LogSlate: Took 0.055429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.07.12-12.11.12:152][  0]LogSlate: Took 0.015493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.12-12.11.12:182][  0]LogSlate: Took 0.012228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.12-12.11.12:196][  0]LogSlate: Took 0.013151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.07.12-12.11.12:629][  0]LogRenderer: Reallocating scene render targets to support 1168x652 NumSamples 1 (Frame:1).
+[2017.07.12-12.11.12:932][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.07.12-12.11.13:058][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0149 seconds. Added 1 classes and 2 folders.
+[2017.07.12-12.11.13:059][  0]LogLoad: (Engine Initialization) Total time: 53.85 seconds
+[2017.07.12-12.11.13:060][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
+[2017.07.12-12.11.13:060][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.12-12.11.13:060][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.12-12.11.13:419][  0]LogOcInput: OculusInput pre-init called
+[2017.07.12-12.11.13:419][  0]LogHMD: Starting GearVRController plugin
+[2017.07.12-12.11.13:450][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.12-12.11.15:073][  5]LogAssetRegistry: Asset discovery search completed in 31.2594 seconds
+[2017.07.12-12.11.15:078][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.12-12.11.15:079][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000402 seconds (updated 0 objects)
+[2017.07.12-12.11.27:884][ 51]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.12-12.11.27:918][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.12-12.11.27:921][ 51]PIE: New page: PIE 세션: Untitled_1 (2017. 7. 13. 오전 6:11:27)
+[2017.07.12-12.11.27:921][ 51]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.11.27:921][ 51]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.11.27:921][ 51]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.11.27:922][ 51]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.12-12.11.27:928][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005798s)
+[2017.07.12-12.11.27:929][ 51]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.12-12.11.27:931][ 51]LogPlayLevel: PIE: World Init took: (0.003124s)
+[2017.07.12-12.11.27:934][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.011843s)
+[2017.07.12-12.11.27:964][ 51]ArenaBattle:Warning: UABGameInstance::Init(25)
+[2017.07.12-12.11.27:964][ 51]ArenaBattle:Warning: UABGameInstance::Init(32) ClassInfo1 is same with ClassInfo2.
+[2017.07.12-12.11.27:965][ 51]ArenaBattle:Warning: UABGameInstance::Init(41) Field : Host, Type : StrProperty
+[2017.07.12-12.11.27:965][ 51]ArenaBattle:Warning: UABGameInstance::Init(46) Value = localhost:8000
+[2017.07.12-12.11.27:965][ 51]ArenaBattle:Warning: UABGameInstance::Init(41) Field : URI, Type : StrProperty
+[2017.07.12-12.11.27:965][ 51]ArenaBattle:Warning: UABGameInstance::Init(46) Value = /
+[2017.07.12-12.11.27:965][ 51]ArenaBattle:Warning: UABGameInstance::Init(53) Function = RequestToken
+[2017.07.12-12.11.27:965][ 51]WebConnection:Warning: Request Token Call!
+[2017.07.12-12.11.27:970][ 51]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-12.11.27:979][ 51]LogInit: FAudioDevice initialized.
+[2017.07.12-12.11.28:032][ 51]LogLoad: Game class is 'GameModeBase'
+[2017.07.12-12.11.28:039][ 51]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.12-21.11.28
+[2017.07.12-12.11.28:042][ 51]LogWorld: Bringing up level for play took: 0.003829
+[2017.07.12-12.11.28:145][ 51]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0093 seconds. Added 11 classes and 0 folders.
+[2017.07.12-12.11.28:155][ 51]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.212
+[2017.07.12-12.16.12:580][536]Candidate modules for hot reload:
+[2017.07.12-12.16.12:581][536]  ArenaBattle
+[2017.07.12-12.16.12:581][536]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle -ModuleWithSuffix ArenaBattle 1514 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/ArenaBattle/ArenaBattle.uproject" ]
+[2017.07.12-12.16.12:583][536]Warning: Starting HotReload took  0.0s.
+[2017.07.12-12.16.47:304][991]CompilerResultsLog: New page: 컴파일 - 2017. 7. 13. 오전 6:16:47
+[2017.07.12-12.16.47:305][991]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.12-12.16.47:305][991]CompilerResultsLog: 정보 Parsing headers for ArenaBattleEditor
+[2017.07.12-12.16.47:305][991]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\ArenaBattle\ArenaBattle.uproject" "D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.12-12.16.47:306][991]CompilerResultsLog:Error: 오류 D:/UnrealStudy/ArenaBattle/Source/WebService/Classes/WebConnection.h(27)  : Error: Unrecognized type 'FFloat16' - type must be a UCLASS, USTRUCT or UENUM
+[2017.07.12-12.16.47:306][991]CompilerResultsLog: 정보 Error: UnrealHeaderTool failed for target 'ArenaBattleEditor' (platform: Win64, module info: D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.07.12-12.16.47:306][991]LogMainFrame: MainFrame: Module compiling took 34.739 seconds
+[2017.07.12-12.16.47:307][991]Warning: HotReload failed, recompile failed
+[2017.07.12-12.18.08:562][748]Candidate modules for hot reload:
+[2017.07.12-12.18.08:562][748]  ArenaBattle
+[2017.07.12-12.18.08:562][748]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle -ModuleWithSuffix ArenaBattle 3394 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/ArenaBattle/ArenaBattle.uproject" ]
+[2017.07.12-12.18.08:565][748]Warning: Starting HotReload took  0.0s.
+[2017.07.12-12.18.30:524][271]CompilerResultsLog: New page: 컴파일 - 2017. 7. 13. 오전 6:18:30
+[2017.07.12-12.18.30:525][271]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.12-12.18.30:525][271]CompilerResultsLog: 정보 Parsing headers for ArenaBattleEditor
+[2017.07.12-12.18.30:526][271]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\ArenaBattle\ArenaBattle.uproject" "D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.12-12.18.30:528][271]CompilerResultsLog:Error: 오류 D:/UnrealStudy/ArenaBattle/Source/WebService/Classes/WebConnection.h(27)  : Error: Unrecognized type 'FFloat32' - type must be a UCLASS, USTRUCT or UENUM
+[2017.07.12-12.18.30:528][271]CompilerResultsLog: 정보 Error: UnrealHeaderTool failed for target 'ArenaBattleEditor' (platform: Win64, module info: D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.07.12-12.18.30:530][271]LogMainFrame: MainFrame: Module compiling took 21.996 seconds
+[2017.07.12-12.18.30:530][271]Warning: HotReload failed, recompile failed
+[2017.07.12-12.19.54:449][ 16]Candidate modules for hot reload:
+[2017.07.12-12.19.54:449][ 16]  ArenaBattle
+[2017.07.12-12.19.54:450][ 16]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle -ModuleWithSuffix ArenaBattle 7359 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/ArenaBattle/ArenaBattle.uproject" ]
+[2017.07.12-12.19.54:452][ 16]Warning: Starting HotReload took  0.0s.
+[2017.07.12-12.20.21:430][451]CompilerResultsLog: New page: 컴파일 - 2017. 7. 13. 오전 6:20:21
+[2017.07.12-12.20.21:431][451]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.12-12.20.21:432][451]CompilerResultsLog: 정보 Parsing headers for ArenaBattleEditor
+[2017.07.12-12.20.21:432][451]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\ArenaBattle\ArenaBattle.uproject" "D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.12-12.20.21:434][451]CompilerResultsLog: 정보 Reflection code generated for ArenaBattleEditor in 11.8374728 seconds
+[2017.07.12-12.20.21:434][451]CompilerResultsLog: 정보 Performing 3 actions (2 in parallel)
+[2017.07.12-12.20.21:434][451]CompilerResultsLog: 정보 ABGameInstance.cpp
+[2017.07.12-12.20.21:435][451]CompilerResultsLog: 정보 [2/3] Link UE4Editor-ArenaBattle-7359.dll
+[2017.07.12-12.20.21:436][451]CompilerResultsLog: 정보 [3/3] Link UE4Editor-ArenaBattle-7359.lib
+[2017.07.12-12.20.21:436][451]CompilerResultsLog: 정보    D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7359.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7359.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.12-12.20.21:504][451]LogSlate: Took 0.062534 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2017.07.12-12.20.21:505][451]CompilerResultsLog: 정보    D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7359.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7359.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.12-12.20.21:506][451]CompilerResultsLog: 정보 Total build time: 26.05 seconds (Local executor: 4.22 seconds)
+[2017.07.12-12.20.21:506][451]LogMainFrame: MainFrame: Module compiling took 27.082 seconds
+[2017.07.12-12.20.21:744][451]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.20.21:745][451]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.20.21:745][451]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.20.21:749][451]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.20.21:750][451]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.20.21:750][451]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.20.21:769][451]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0185 seconds. Added 1 classes and 1 folders.
+[2017.07.12-12.20.21:773][451]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.12-12.20.21:962][451]LogContentBrowser: Native class hierarchy populated in 0.0427 seconds. Added 2333 classes and 499 folders.
+[2017.07.12-12.20.21:967][451]Display: HotReload took 27.6s.
+[2017.07.12-12.20.30:333][478]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.12-12.20.30:356][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.12-12.20.30:356][478]PIE: New page: PIE 세션: Untitled_1 (2017. 7. 13. 오전 6:20:30)
+[2017.07.12-12.20.30:357][478]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.20.30:357][478]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.20.30:357][478]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.20.30:358][478]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.12-12.20.30:363][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005651s)
+[2017.07.12-12.20.30:365][478]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.12-12.20.30:366][478]LogPlayLevel: PIE: World Init took: (0.002235s)
+[2017.07.12-12.20.30:366][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008833s)
+[2017.07.12-12.20.30:396][478]ArenaBattle:Warning: UABGameInstance::Init(25)
+[2017.07.12-12.20.30:397][478]ArenaBattle:Warning: UABGameInstance::Init(32) ClassInfo1 is same with ClassInfo2.
+[2017.07.12-12.20.30:397][478]ArenaBattle:Warning: UABGameInstance::Init(41) Field : Host, Type : StrProperty
+[2017.07.12-12.20.30:397][478]ArenaBattle:Warning: UABGameInstance::Init(46) Value = localhost:8000
+[2017.07.12-12.20.30:397][478]ArenaBattle:Warning: UABGameInstance::Init(41) Field : URI, Type : StrProperty
+[2017.07.12-12.20.30:397][478]ArenaBattle:Warning: UABGameInstance::Init(46) Value = /
+[2017.07.12-12.20.30:397][478]ArenaBattle:Warning: UABGameInstance::Init(53) Function = RequestToken
+[2017.07.12-12.20.30:397][478]WebConnection:Warning: Request Token Call!
+[2017.07.12-12.20.30:401][478]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-12.20.30:412][478]LogInit: FAudioDevice initialized.
+[2017.07.12-12.20.30:449][478]LogLoad: Game class is 'GameModeBase'
+[2017.07.12-12.20.30:451][478]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.12-21.20.30
+[2017.07.12-12.20.30:451][478]LogWorld: Bringing up level for play took: 0.001507
+[2017.07.12-12.20.30:453][478]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.087
+[2017.07.12-12.38.59:349][694]Candidate modules for hot reload:
+[2017.07.12-12.38.59:349][694]  ArenaBattle
+[2017.07.12-12.38.59:349][694]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle -ModuleWithSuffix ArenaBattle 6056 Win64 Development -editorrecompile -canskiplink "D:/UnrealStudy/ArenaBattle/ArenaBattle.uproject" ]
+[2017.07.12-12.38.59:351][694]Warning: Starting HotReload took  0.0s.
+[2017.07.12-12.39.19:870][187]CompilerResultsLog: New page: 컴파일 - 2017. 7. 13. 오전 6:39:19
+[2017.07.12-12.39.19:871][187]CompilerResultsLog: 정보 Compiling game modules for hot reload
+[2017.07.12-12.39.19:871][187]CompilerResultsLog: 정보 Parsing headers for ArenaBattleEditor
+[2017.07.12-12.39.19:871][187]CompilerResultsLog: 정보   Running UnrealHeaderTool "D:\UnrealStudy\ArenaBattle\ArenaBattle.uproject" "D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.12-12.39.19:872][187]CompilerResultsLog: 정보 Reflection code generated for ArenaBattleEditor in 8.6949655 seconds
+[2017.07.12-12.39.19:873][187]CompilerResultsLog: 정보 Performing 3 actions (2 in parallel)
+[2017.07.12-12.39.19:873][187]CompilerResultsLog: 정보 ABGameInstance.cpp
+[2017.07.12-12.39.19:874][187]CompilerResultsLog: 정보 [2/3] Link UE4Editor-ArenaBattle-6056.dll
+[2017.07.12-12.39.19:874][187]CompilerResultsLog: 정보 [3/3] Link UE4Editor-ArenaBattle-6056.lib
+[2017.07.12-12.39.19:874][187]CompilerResultsLog: 정보    D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6056.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6056.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.12-12.39.19:875][187]CompilerResultsLog: 정보    D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6056.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6056.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2017.07.12-12.39.19:876][187]CompilerResultsLog: 정보 Total build time: 20.20 seconds (Local executor: 4.49 seconds)
+[2017.07.12-12.39.19:877][187]LogMainFrame: MainFrame: Module compiling took 20.554 seconds
+[2017.07.12-12.39.20:129][187]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.39.20:130][187]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.39.20:130][187]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.39.20:133][187]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.39.20:133][187]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.39.20:133][187]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.39.20:146][187]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0132 seconds. Added 1 classes and 1 folders.
+[2017.07.12-12.39.20:149][187]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.12-12.39.20:264][187]LogContentBrowser: Native class hierarchy populated in 0.0300 seconds. Added 2333 classes and 499 folders.
+[2017.07.12-12.39.20:264][187]Display: HotReload took 21.0s.
+[2017.07.12-12.39.25:348][308]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.12-12.39.25:371][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.12-12.39.25:371][308]PIE: New page: PIE 세션: Untitled_1 (2017. 7. 13. 오전 6:39:25)
+[2017.07.12-12.39.25:372][308]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.39.25:372][308]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.39.25:372][308]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.39.25:372][308]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.12-12.39.25:376][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003910s)
+[2017.07.12-12.39.25:377][308]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.12-12.39.25:378][308]LogPlayLevel: PIE: World Init took: (0.001590s)
+[2017.07.12-12.39.25:378][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006275s)
+[2017.07.12-12.39.25:410][308]ArenaBattle:Warning: UABGameInstance::Init(25)
+[2017.07.12-12.39.25:411][308]ArenaBattle:Warning: UABGameInstance::Init(32) ClassInfo1 is same with ClassInfo2.
+[2017.07.12-12.39.25:411][308]ArenaBattle:Warning: UABGameInstance::Init(41) Field : Host, Type : StrProperty
+[2017.07.12-12.39.25:411][308]ArenaBattle:Warning: UABGameInstance::Init(46) Value = localhost:8000
+[2017.07.12-12.39.25:411][308]ArenaBattle:Warning: UABGameInstance::Init(41) Field : URI, Type : StrProperty
+[2017.07.12-12.39.25:411][308]ArenaBattle:Warning: UABGameInstance::Init(46) Value = /
+[2017.07.12-12.39.25:412][308]ArenaBattle:Warning: UABGameInstance::Init(61) Function = RequestToken
+[2017.07.12-12.39.25:412][308]WebConnection:Warning: Request Token Call!
+[2017.07.12-12.39.25:416][308]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-12.39.25:427][308]LogInit: FAudioDevice initialized.
+[2017.07.12-12.39.25:473][308]LogLoad: Game class is 'GameModeBase'
+[2017.07.12-12.39.25:477][308]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.12-21.39.25
+[2017.07.12-12.39.25:478][308]LogWorld: Bringing up level for play took: 0.003733
+[2017.07.12-12.39.25:482][308]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.884
+[2017.07.12-12.40.51:044][802]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.07.12-12.40.53:380][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.12-12.40.55:152][900]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.12-12.40.56:046][920]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.07.12-12.40.57:172][947]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.12-12.40.57:954][963]LogHotReload: New module detected: UE4Editor-ArenaBattle-1161.dll
+[2017.07.12-12.41.00:152][ 17]LogHotReload: Starting Hot-Reload from IDE
+[2017.07.12-12.41.00:195][ 17]LogSlate: Took 0.015273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.12-12.41.00:618][ 17]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.41.00:618][ 17]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.41.00:618][ 17]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.41.00:618][ 17]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.41.00:622][ 17]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.41.00:622][ 17]ArenaBattle:Warning: UABGameInstance::UABGameInstance(13) Constructor Start!
+[2017.07.12-12.41.00:622][ 17]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.12-12.41.00:622][ 17]ArenaBattle:Warning: UABGameInstance::UABGameInstance(18) Constructor End!
+[2017.07.12-12.41.00:635][ 17]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0126 seconds. Added 1 classes and 1 folders.
+[2017.07.12-12.41.00:638][ 17]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.07.12-12.41.00:729][ 17]LogContentBrowser: Native class hierarchy populated in 0.0280 seconds. Added 2333 classes and 499 folders.
+[2017.07.12-12.41.00:735][ 17]Display: HotReload took  0.6s.
+[2017.07.12-12.41.36:582][699]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.07.12-12.41.36:852][700]Cmd: QUIT_EDITOR
+[2017.07.12-12.41.37:629][700]LogExit: Preparing to exit.
+[2017.07.12-12.41.38:846][700]LogExit: Editor shut down
+[2017.07.12-12.41.38:854][700]LogExit: Transaction tracking system shut down
+[2017.07.12-12.41.38:936][700]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.12-12.41.38:936][700]LogExit: Object subsystem successfully closed.
+[2017.07.12-12.41.38:962][700]LogD3D11RHI: Shutdown
+[2017.07.12-12.41.38:962][700]LogD3D11RHI: CleanupD3DDevice
+[2017.07.12-12.41.39:104][700]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.12-12.41.39:156][700]LogModuleManager: Shutting down and abandoning module ArenaBattle (533)
+[2017.07.12-12.41.39:156][700]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.07.12-12.41.39:156][700]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.07.12-12.41.39:157][700]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.07.12-12.41.39:157][700]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.07.12-12.41.39:157][700]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.07.12-12.41.39:158][700]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.12-12.41.39:159][700]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.07.12-12.41.39:159][700]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.07.12-12.41.39:159][700]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.07.12-12.41.39:159][700]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/ArenaBattle/Content/Collections/' was aborted.
+[2017.07.12-12.41.39:159][700]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/ArenaBattle/Content/Developers/LEEJIU/Collections/' was aborted.
+[2017.07.12-12.41.39:159][700]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/ArenaBattle/Saved/Collections/' was aborted.
+[2017.07.12-12.41.39:159][700]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.07.12-12.41.39:159][700]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.07.12-12.41.39:159][700]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.07.12-12.41.39:160][700]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.07.12-12.41.39:160][700]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.07.12-12.41.39:160][700]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.07.12-12.41.39:160][700]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.07.12-12.41.39:160][700]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.07.12-12.41.39:160][700]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.07.12-12.41.39:161][700]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.07.12-12.41.39:161][700]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.07.12-12.41.39:161][700]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.07.12-12.41.39:161][700]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.07.12-12.41.39:162][700]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.07.12-12.41.39:164][700]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.07.12-12.41.39:165][700]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.07.12-12.41.39:167][700]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.07.12-12.41.39:168][700]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.07.12-12.41.39:170][700]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.07.12-12.41.39:170][700]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.07.12-12.41.39:170][700]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.07.12-12.41.39:171][700]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.07.12-12.41.39:171][700]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.07.12-12.41.39:171][700]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.07.12-12.41.39:683][700]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.07.12-12.41.39:683][700]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.07.12-12.41.39:683][700]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.07.12-12.41.39:689][700]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.07.12-12.41.39:691][700]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.07.12-12.41.39:691][700]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.07.12-12.41.39:691][700]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.07.12-12.41.39:692][700]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.07.12-12.41.39:693][700]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.07.12-12.41.39:694][700]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.07.12-12.41.39:694][700]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.07.12-12.41.39:695][700]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.07.12-12.41.39:696][700]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.07.12-12.41.39:696][700]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.07.12-12.41.39:696][700]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.07.12-12.41.39:696][700]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.07.12-12.41.39:696][700]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.07.12-12.41.39:696][700]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.07.12-12.41.39:696][700]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.07.12-12.41.39:698][700]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.07.12-12.41.39:699][700]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.07.12-12.41.39:700][700]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.07.12-12.41.39:701][700]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.07.12-12.41.39:702][700]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.07.12-12.41.39:757][700]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.07.12-12.41.39:758][700]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.07.12-12.41.39:760][700]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.07.12-12.41.39:763][700]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.07.12-12.41.39:763][700]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.07.12-12.41.39:763][700]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.07.12-12.41.39:764][700]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.07.12-12.41.39:767][700]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.07.12-12.41.39:767][700]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.07.12-12.41.39:767][700]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.07.12-12.41.39:768][700]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.07.12-12.41.39:768][700]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.07.12-12.41.39:768][700]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.07.12-12.41.39:769][700]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.07.12-12.41.39:769][700]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.07.12-12.41.39:769][700]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.07.12-12.41.39:769][700]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.07.12-12.41.39:769][700]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.07.12-12.41.39:769][700]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.07.12-12.41.39:770][700]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.07.12-12.41.39:770][700]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.07.12-12.41.39:773][700]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.07.12-12.41.39:786][700]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module SteamVRController (328)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module SteamVR (326)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (324)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module OculusLibrary (320)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module OculusInput (318)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (316)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2017.07.12-12.41.39:788][700]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2017.07.12-12.41.39:789][700]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2017.07.12-12.41.39:789][700]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (304)
+[2017.07.12-12.41.39:791][700]LogModuleManager: Shutting down and abandoning module HTML5Networking (302)
+[2017.07.12-12.41.39:791][700]LogModuleManager: Shutting down and abandoning module AlembicImporter (300)
+[2017.07.12-12.41.39:792][700]LogModuleManager: Shutting down and abandoning module AlembicLibrary (299)
+[2017.07.12-12.41.39:792][700]LogModuleManager: Shutting down and abandoning module GeometryCache (298)
+[2017.07.12-12.41.39:792][700]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (297)
+[2017.07.12-12.41.39:792][700]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (292)
+[2017.07.12-12.41.39:792][700]LogModuleManager: Shutting down and abandoning module SuperSearch (291)
+[2017.07.12-12.41.39:792][700]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (288)
+[2017.07.12-12.41.39:792][700]LogModuleManager: Shutting down and abandoning module PluginBrowser (286)
+[2017.07.12-12.41.39:794][700]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (284)
+[2017.07.12-12.41.39:796][700]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (282)
+[2017.07.12-12.41.39:796][700]LogModuleManager: Shutting down and abandoning module DesktopPlatform (281)
+[2017.07.12-12.41.39:796][700]LogModuleManager: Shutting down and abandoning module UObjectPlugin (278)
+[2017.07.12-12.41.39:796][700]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (276)
+[2017.07.12-12.41.39:797][700]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (274)
+[2017.07.12-12.41.39:798][700]LogModuleManager: Shutting down and abandoning module GitSourceControl (272)
+[2017.07.12-12.41.39:799][700]LogModuleManager: Shutting down and abandoning module SourceControl (271)
+[2017.07.12-12.41.39:799][700]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (268)
+[2017.07.12-12.41.39:799][700]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (266)
+[2017.07.12-12.41.39:799][700]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (264)
+[2017.07.12-12.41.39:799][700]LogModuleManager: Shutting down and abandoning module Paper2DEditor (262)
+[2017.07.12-12.41.39:800][700]LogModuleManager: Shutting down and abandoning module MeshPaint (261)
+[2017.07.12-12.41.39:801][700]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2017.07.12-12.41.39:803][700]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2017.07.12-12.41.39:804][700]LogModuleManager: Shutting down and abandoning module MainFrame (256)
+[2017.07.12-12.41.39:804][700]LogModuleManager: Shutting down and abandoning module HotReload (255)
+[2017.07.12-12.41.39:804][700]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/ArenaBattle/Binaries/Win64' was aborted.
+[2017.07.12-12.41.39:806][700]LogModuleManager: Shutting down and abandoning module WebService (250)
+[2017.07.12-12.41.39:806][700]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.12-12.41.39:807][700]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.12-12.41.39:807][700]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.12-12.41.39:807][700]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.12-12.41.39:807][700]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.12-12.41.39:808][700]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.12-12.41.39:909][700]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.12-12.41.40:013][700]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.12-12.41.40:016][700]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.12-12.41.40:016][700]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.12-12.41.40:016][700]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.12-12.41.40:018][700]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.12-12.41.40:018][700]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.12-12.41.40:020][700]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.12-12.41.40:020][700]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.12-12.41.40:020][700]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.12-12.41.40:020][700]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.12-12.41.40:021][700]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.12-12.41.40:021][700]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.12-12.41.40:022][700]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.12-12.41.40:022][700]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.12-12.41.40:023][700]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.12-12.41.40:029][700]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.12-12.41.40:029][700]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.12-12.41.40:029][700]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.12-12.41.40:029][700]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.12-12.41.40:029][700]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.12-12.41.40:029][700]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.12-12.41.40:230][700]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.12-12.41.40:230][700]LogDirectoryWatcher: A directory notification for 'D:/UnrealStudy/ArenaBattle/Content/' was aborted.
+[2017.07.12-12.41.40:231][700]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.12-12.41.40:231][700]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.12-12.41.40:239][700]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.12-12.41.40:240][700]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.12-12.41.40:262][700]LogDerivedDataCache: Shutdown
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.12-12.41.40:262][700]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.12-12.41.40:263][700]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.12-12.41.40:263][700]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.12-12.41.40:265][700]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.12-12.41.40:265][700]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.12-12.41.40:265][700]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.12-12.41.40:265][700]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0347E387-408C-DB7F-9154-7B914A8DB67A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=6309f6d84a95ae2fd4720a8936598cbb%7C47c8acbb412c4c59ac4a2cbb28f674b9%7Cc22bf75b-b27c-4543-aa8c-1a82ec03a7f1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.12-12.41.40:287][700]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.12-12.41.40:289][700]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.12-12.41.40:289][700]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.12-12.41.40:289][700]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.12-12.41.40:289][700]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.12-12.41.40:290][700]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.12-12.41.40:290][700]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.12-12.41.40:290][700]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.12-12.41.40:290][700]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.12-12.41.40:296][700]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.12-12.41.40:298][700]LogExit: Exiting.
+[2017.07.12-12.41.40:326][700]Log file closed, 07/12/17 21:41:40

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ArenaBattle.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3F87CD1A-C9C6-4CDC-AA2B-E41BE5628D43}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ArenaBattle.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ArenaBattleEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{20B1A6DC-C6C0-4219-A435-32582A66571B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ArenaBattle">
+			<UniqueIdentifier>{7E64AB23-8D3A-44B8-9D6A-4AFA3BD517EA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\ArenaBattle\ABGameInstance.cpp">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArenaBattle\ABGameInstance.h">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
+			<Filter>Source\ArenaBattle</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClInclude >
+		<Filter Include="Source\WebService">
+			<UniqueIdentifier>{8F8B3C67-6E40-40BA-95C3-FB4A44C74093}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\WebService\WebService.Build.cs">
+			<Filter>Source\WebService</Filter>
+		</None >
+		<Filter Include="Source\WebService\Classes">
+			<UniqueIdentifier>{B862629A-E9DD-4831-AA68-EF482C8F6471}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\WebService\Classes\WebConnection.h">
+			<Filter>Source\WebService\Classes</Filter>
+		</ClInclude >
+		<Filter Include="Source\WebService\Private">
+			<UniqueIdentifier>{9A1187E8-2CB3-4744-9E3B-3DC95B7F175C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\WebService\Private\WebConnection.cpp">
+			<Filter>Source\WebService\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\WebService\Private\WebService.cpp">
+			<Filter>Source\WebService\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\WebService\Public">
+			<UniqueIdentifier>{6B3B1C3F-AE41-43F7-AF79-97008091ED27}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\WebService\Public\WebService.h">
+			<Filter>Source\WebService\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
