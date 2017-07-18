@@ -1,18 +1,15 @@
-﻿  Compiling game modules for hot reload
-  Parsing headers for ArenaBattleEditor
+﻿  Parsing headers for ArenaBattleEditor
     Running UnrealHeaderTool "D:\UnrealStudy\ArenaBattle\ArenaBattle.uproject" "D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ArenaBattleEditor in 9.3926668 seconds
-  Performing 7 actions (2 in parallel)
-  WebConnection.cpp
-  WebService.generated.cpp
-  [4/7] Link UE4Editor-WebService-5855.lib
+  Reflection code generated for ArenaBattleEditor in 15.7799214 seconds
+  Performing 5 actions (2 in parallel)
+  ABPawn.cpp
   ABGameInstance.cpp
-     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.exp 개체를 생성하고 있습니다.
-  [5/7] Link UE4Editor-WebService-5855.dll
-     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.suppressed.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService-5855.suppressed.exp 개체를 생성하고 있습니다.
-  [6/7] Link UE4Editor-ArenaBattle-1161.dll
-     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.suppressed.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.suppressed.exp 개체를 생성하고 있습니다.
-  [7/7] Link UE4Editor-ArenaBattle-1161.lib
-     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1161.exp 개체를 생성하고 있습니다.
+D:\UnrealStudy\ArenaBattle\Source\ArenaBattle\ABPawn.cpp(69): warning C4996: 'FStreamableManager::SynchronousLoad': Call LoadSynchronous with bManageActiveHandle=true instead if you want the manager to keep the handle alive Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  c:\program files\epic games\ue_4.16\engine\source\runtime\engine\classes\engine\StreamableManager.h(263): note: 'FStreamableManager::SynchronousLoad' 선언을 참조하십시오.
+  ArenaBattle.generated.cpp
+  [4/5] Link UE4Editor-ArenaBattle.dll
+  [5/5] Link UE4Editor-ArenaBattle.lib
+     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.exp 개체를 생성하고 있습니다.
+     D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.lib 라이브러리 및 D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 25.04 seconds (Local executor: 8.37 seconds)
+  Total build time: 25.54 seconds (Local executor: 7.14 seconds)

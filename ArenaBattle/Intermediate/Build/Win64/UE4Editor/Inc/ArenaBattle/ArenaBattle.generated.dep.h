@@ -8,3 +8,9 @@
 #ifndef ARENABATTLE_ABGameInstance_generated_h
 	#include "ABGameInstance.h"
 #endif
+#ifndef ARENABATTLE_ABPawn_generated_h
+	#include "ABPawn.h"
+#endif
+#ifndef ARENABATTLE_Weapon_generated_h
+	#include "Weapon.h"
+#endif

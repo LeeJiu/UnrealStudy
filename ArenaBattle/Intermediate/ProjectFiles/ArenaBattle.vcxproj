@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{355D8838-5A28-436B-82D1-9763B128A84A}</ProjectGuid>
+		<ProjectGuid>{F6714BB1-4AF4-4A2E-93A3-8D433AB47788}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>ArenaBattle</RootNamespace>
        <PlatformToolset>v140</PlatformToolset>
@@ -411,11 +411,16 @@
 		<None Include="..\..\Source\ArenaBattle.Target.cs" />
 		<None Include="..\..\Source\ArenaBattleEditor.Target.cs" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
 		<ClCompile Include="..\..\Source\ArenaBattle\ABGameInstance.cpp" />
 		<ClInclude Include="..\..\Source\ArenaBattle\ABGameInstance.h" />
+		<ClCompile Include="..\..\Source\ArenaBattle\ABPawn.cpp" />
+		<ClInclude Include="..\..\Source\ArenaBattle\ABPawn.h" />
 		<None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs" />
 		<ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp" />
 		<ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h" />
+		<ClCompile Include="..\..\Source\ArenaBattle\Weapon.cpp" />
+		<ClInclude Include="..\..\Source\ArenaBattle\Weapon.h" />
 		<None Include="..\..\Source\WebService\WebService.Build.cs" />
 		<ClInclude Include="..\..\Source\WebService\Classes\WebConnection.h" />
 		<ClCompile Include="..\..\Source\WebService\Private\WebConnection.cpp" />

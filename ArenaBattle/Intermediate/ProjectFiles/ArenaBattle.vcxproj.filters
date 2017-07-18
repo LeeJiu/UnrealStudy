@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ArenaBattle.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{3F87CD1A-C9C6-4CDC-AA2B-E41BE5628D43}</UniqueIdentifier>
+			<UniqueIdentifier>{8680E4B2-BCED-45DA-BAD3-D4D6752A96F6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ArenaBattle.Target.cs">
 			<Filter>Source</Filter>
@@ -13,18 +13,27 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{20B1A6DC-C6C0-4219-A435-32582A66571B}</UniqueIdentifier>
+			<UniqueIdentifier>{E08C8A4E-C346-43FF-ADD1-C07116EB59B7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Source\ArenaBattle">
-			<UniqueIdentifier>{7E64AB23-8D3A-44B8-9D6A-4AFA3BD517EA}</UniqueIdentifier>
+			<UniqueIdentifier>{F7B6D7F6-515E-49E9-86CE-DB7DEE67BDE2}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\ArenaBattle\ABGameInstance.cpp">
 			<Filter>Source\ArenaBattle</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\ArenaBattle\ABGameInstance.h">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ArenaBattle\ABPawn.cpp">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArenaBattle\ABPawn.h">
 			<Filter>Source\ArenaBattle</Filter>
 		</ClInclude >
 		<None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
@@ -36,20 +45,26 @@
 		<ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
 			<Filter>Source\ArenaBattle</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\ArenaBattle\Weapon.cpp">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArenaBattle\Weapon.h">
+			<Filter>Source\ArenaBattle</Filter>
+		</ClInclude >
 		<Filter Include="Source\WebService">
-			<UniqueIdentifier>{8F8B3C67-6E40-40BA-95C3-FB4A44C74093}</UniqueIdentifier>
+			<UniqueIdentifier>{68CD4491-E240-450F-B3EB-1210AFB46DB6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\WebService\WebService.Build.cs">
 			<Filter>Source\WebService</Filter>
 		</None >
 		<Filter Include="Source\WebService\Classes">
-			<UniqueIdentifier>{B862629A-E9DD-4831-AA68-EF482C8F6471}</UniqueIdentifier>
+			<UniqueIdentifier>{6BED6DE3-6916-4E49-80CF-FEFEC6569273}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\WebService\Classes\WebConnection.h">
 			<Filter>Source\WebService\Classes</Filter>
 		</ClInclude >
 		<Filter Include="Source\WebService\Private">
-			<UniqueIdentifier>{9A1187E8-2CB3-4744-9E3B-3DC95B7F175C}</UniqueIdentifier>
+			<UniqueIdentifier>{8F95FA92-7F3A-49F1-81D6-47823F7C8E12}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\WebService\Private\WebConnection.cpp">
 			<Filter>Source\WebService\Private</Filter>
@@ -58,7 +73,7 @@
 			<Filter>Source\WebService\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\WebService\Public">
-			<UniqueIdentifier>{6B3B1C3F-AE41-43F7-AF79-97008091ED27}</UniqueIdentifier>
+			<UniqueIdentifier>{3771F6E6-0CEE-4FC5-B15A-C5E129FF44E8}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\WebService\Public\WebService.h">
 			<Filter>Source\WebService\Public</Filter>
