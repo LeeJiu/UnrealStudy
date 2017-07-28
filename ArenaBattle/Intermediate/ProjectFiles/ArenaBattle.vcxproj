@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{F6714BB1-4AF4-4A2E-93A3-8D433AB47788}</ProjectGuid>
+		<ProjectGuid>{601322D4-7EC2-44C1-AE3C-E9CF7173255A}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>ArenaBattle</RootNamespace>
        <PlatformToolset>v140</PlatformToolset>
@@ -412,6 +412,7 @@
 		<None Include="..\..\Source\ArenaBattleEditor.Target.cs" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
 		<ClCompile Include="..\..\Source\ArenaBattle\ABGameInstance.cpp" />
 		<ClInclude Include="..\..\Source\ArenaBattle\ABGameInstance.h" />
 		<ClCompile Include="..\..\Source\ArenaBattle\ABPawn.cpp" />

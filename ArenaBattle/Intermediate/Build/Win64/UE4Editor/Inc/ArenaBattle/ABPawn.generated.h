@@ -13,8 +13,64 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARENABATTLE_ABPawn_generated_h
 
-#define ArenaBattle_Source_ArenaBattle_ABPawn_h_13_RPC_WRAPPERS
-#define ArenaBattle_Source_ArenaBattle_ABPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define ArenaBattle_Source_ArenaBattle_ABPawn_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execLeftRightInput) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_NewInputVal); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->LeftRightInput(Z_Param_NewInputVal); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execUpDownInput) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_NewInputVal); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->UpDownInput(Z_Param_NewInputVal); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCharacterMeshDeferred) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->CharacterMeshDeferred(); \
+		P_NATIVE_END; \
+	}
+
+
+#define ArenaBattle_Source_ArenaBattle_ABPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execLeftRightInput) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_NewInputVal); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->LeftRightInput(Z_Param_NewInputVal); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execUpDownInput) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_NewInputVal); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->UpDownInput(Z_Param_NewInputVal); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCharacterMeshDeferred) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->CharacterMeshDeferred(); \
+		P_NATIVE_END; \
+	}
+
+
 #define ArenaBattle_Source_ArenaBattle_ABPawn_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAABPawn(); \

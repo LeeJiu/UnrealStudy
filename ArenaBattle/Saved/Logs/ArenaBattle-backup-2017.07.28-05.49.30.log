@@ -1,0 +1,370 @@
+﻿Log file open, 07/28/17 05:45:49
+LogInit:Display: Running engine for game: ArenaBattle
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(454559550) SRandInit(454559550).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.129428
+LogInit:Warning: Incompatible or missing module: UE4Editor-ArenaBattle.dll
+LogInit:Warning: Incompatible or missing module: UE4Editor-WebService.dll
+Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle Development Win64 -project="D:/UnrealStudy/ArenaBattle/ArenaBattle.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Creating makefile for ArenaBattle (no existing makefile)
+Performing full C++ include scan (no include cache file)
+@progress push 5%
+Parsing headers for ArenaBattleEditor
+  Running UnrealHeaderTool "D:\UnrealStudy\ArenaBattle\ArenaBattle.uproject" "D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for ArenaBattleEditor in 14.347064 seconds
+@progress pop
+Performing 16 actions (2 in parallel)
+[2/16] Resource ModuleVersionResource.rc.inl
+SharedPCH.Engine.cpp
+[3/16] Resource PCLaunch.rc
+[4/16] Resource PCLaunch.rc
+WebConnection.cpp
+WebService.cpp
+WebService.generated.cpp
+ABGameInstance.cpp
+ABPawn.cpp
+ArenaBattle.cpp
+Weapon.cpp
+ArenaBattle.generated.cpp
+[13/16] Link UE4Editor-WebService.lib
+   D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[14/16] Link UE4Editor-WebService.dll
+   D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebService.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[15/16] Link UE4Editor-ArenaBattle.dll
+   D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[16/16] Link UE4Editor-ArenaBattle.lib
+   D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.lib ???̺귯?? ?? D:\UnrealStudy\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+Total build time: 95.16 seconds (Local executor: 19.32 seconds)
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.27-20.47.31:283][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-20.47.31:283][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.27-20.47.31:342][  0]LogInit: Computer: LEEJIU
+[2017.07.27-20.47.31:342][  0]LogInit: User: LEEJIU
+[2017.07.27-20.47.31:342][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.27-20.47.31:342][  0]LogInit: High frequency timer resolution =2.435870 MHz
+[2017.07.27-20.47.31:344][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.27-20.47.31:344][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.27-20.47.31:344][  0]LogMemory: Process Physical Memory: 277.88 MB used, 277.88 MB peak
+[2017.07.27-20.47.31:344][  0]LogMemory: Process Virtual Memory: 259.05 MB used, 259.05 MB peak
+[2017.07.27-20.47.31:344][  0]LogMemory: Physical Memory: 2317.36 MB used,  5782.04 MB free, 8099.39 MB total
+[2017.07.27-20.47.31:344][  0]LogMemory: Virtual Memory: 681.52 MB used,  5782.04 MB free, 134217728.00 MB total
+[2017.07.27-20.47.31:842][  0]LogInit: Using OS detected language (ko-KR).
+[2017.07.27-20.47.31:842][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.07.27-20.47.31:943][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.07.27-20.47.36:614][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.27-20.47.37:606][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 11_0)
+[2017.07.27-20.47.37:606][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.07.27-20.47.37:657][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2017.07.27-20.47.37:657][  0]LogD3D11RHI:       2000/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.07.27-20.47.37:660][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.27-20.47.37:660][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.27-20.47.37:660][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.07.27-20.47.37:672][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.27-20.47.37:672][  0]LogD3D11RHI:     GPU DeviceId: 0x124d (for the marketing name, search the web for "GPU Device Id")
+[2017.07.27-20.47.37:672][  0]LogWindows: EnumDisplayDevices:
+[2017.07.27-20.47.37:673][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2017.07.27-20.47.37:673][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:1)
+[2017.07.27-20.47.37:673][  0]LogWindows:    2. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2017.07.27-20.47.37:673][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.07.27-20.47.37:673][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2017.07.27-20.47.37:673][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.27-20.47.37:673][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.27-20.47.37:673][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.27-20.47.37:726][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.27-20.47.37:728][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.27-20.47.37:781][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.27-20.47.37:793][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/UnrealStudy/ArenaBattle/Intermediate/Shaders/WorkingDirectory/1076/).
+[2017.07.27-20.47.37:793][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LEEJIU/AppData/Local/Temp/UnrealShaderWorkingDir/206EF9FE4540EE58112E58BAC496DC0E/'.
+[2017.07.27-20.47.37:794][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.27-20.47.41:442][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.27-20.47.41:531][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.27-20.47.41:633][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.27-20.47.41:791][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.27-20.47.41:900][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.27-20.47.41:989][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.27-20.47.42:086][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.27-20.47.42:247][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.27-20.47.42:341][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.27-20.47.42:458][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.27-20.47.42:593][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.27-20.47.42:685][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.27-20.47.42:770][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.27-20.47.42:862][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.27-20.47.43:018][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.27-20.47.43:202][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.27-20.47.43:202][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.27-20.47.43:338][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.27-20.47.43:516][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.27-20.47.43:562][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.27-20.47.43:655][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.27-20.47.43:818][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.27-20.47.43:918][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.27-20.47.44:033][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.27-20.47.44:033][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.27-20.47.45:299][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.27-20.47.45:859][  0]LogDerivedDataCache: Loaded boot cache 0.56s 96MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-20.47.45:859][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.27-20.47.45:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealStudy/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.27-20.47.45:859][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.27-20.47.45:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealStudy/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.27-20.47.45:859][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.27-20.47.45:892][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.27-20.47.45:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LEEJIU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.27-20.47.45:926][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.27-20.47.45:936][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.27-20.47.45:951][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-20.47.45:951][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-20.47.47:450][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-20.47.47:782][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.27-20.47.48:174][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.27-20.47.48:275][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.27-20.47.48:380][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.27-20.47.48:380][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.27-20.47.48:380][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.27-20.47.50:670][  0]LogNetVersion: ArenaBattle , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 38908305)
+[2017.07.27-20.47.50:805][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2017.07.27-20.47.50:937][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.079817 seconds
+[2017.07.27-20.47.50:950][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.27-20.47.50:950][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.27-20.47.50:950][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.27-20.47.51:184][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.27-20.48.01:924][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.27-20.48.02:098][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.27-20.48.02:992][  0]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.48.02:992][  0]ArenaBattle:Warning: UABGameInstance::UABGameInstance(20) Constructor Start!
+[2017.07.27-20.48.02:992][  0]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.48.02:992][  0]ArenaBattle:Warning: UABGameInstance::UABGameInstance(27) Constructor End!
+[2017.07.27-20.48.04:769][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.27-20.48.05:661][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-20.48.05:804][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-20.48.05:927][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-20.48.06:036][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-20.48.07:699][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.27-20.48.09:216][  0]LogEngine: Initializing Engine...
+[2017.07.27-20.48.09:220][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.27-20.48.09:761][  0]ArenaBattle:Warning: UABGameInstance::UABGameInstance(20) Constructor Start!
+[2017.07.27-20.48.09:761][  0]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.48.09:761][  0]ArenaBattle:Warning: UABGameInstance::UABGameInstance(27) Constructor End!
+[2017.07.27-20.48.09:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.27-20.48.09:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.27-20.48.10:124][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.27-20.48.10:144][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-20.48.10:185][  0]LogInit: FAudioDevice initialized.
+[2017.07.27-20.48.10:285][  0]LogDerivedDataCache: Saved boot cache 0.10s 96MB C:/Users/LEEJIU/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-20.48.10:313][  0]LogInit: Texture streaming: Enabled
+[2017.07.27-20.48.10:539][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.27-20.48.10:539][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={39A5BFF7-4BE0-143B-3F86-3783F66E50AE}
+[2017.07.27-20.48.11:227][  0]LogInit: Transaction tracking system initialized
+[2017.07.27-20.48.12:208][  0]BlueprintLog: New page: 에디터 로드
+[2017.07.27-20.48.15:492][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.07.27-20.48.17:977][  0]LogConsoleResponse:Display: 
+[2017.07.27-20.48.18:617][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.27-20.48.18:618][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.27-20.48.19:819][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Content/' took 0.08s
+[2017.07.27-20.48.23:150][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-20.48.23:152][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.27-20.48.23:154][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.27-20.48.23:301][  0]MapCheck: New page: 맵 체크
+[2017.07.27-20.48.23:301][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.27-20.48.24:144][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.27-20.48.24:147][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.27-20.48.24:183][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.27-20.48.24:320][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.27-20.48.24:484][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 163.357ms.
+[2017.07.27-20.48.24:484][  0]LogFileHelpers: Loading map 'Template_Default' took 1.333
+[2017.07.27-20.48.25:066][  0]LogCollectionManager: Loaded 0 collections in 0.005441 seconds
+[2017.07.27-20.48.25:298][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Saved/Collections/' took 0.01s
+[2017.07.27-20.48.25:298][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Content/Developers/LEEJIU/Collections/' took 0.01s
+[2017.07.27-20.48.25:298][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealStudy/ArenaBattle/Content/Collections/' took 0.01s
+[2017.07.27-20.48.25:298][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.07.27-20.48.25:353][  0]LogContentBrowser: Native class hierarchy populated in 0.0520 seconds. Added 2333 classes and 495 folders.
+[2017.07.27-20.48.25:630][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0224 seconds. Added 0 classes and 0 folders.
+[2017.07.27-20.48.26:634][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0162 seconds. Added 0 classes and 0 folders.
+[2017.07.27-20.48.26:829][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0166 seconds. Added 1 classes and 2 folders.
+[2017.07.27-20.48.26:999][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.27-20.48.27:062][  0]LogSlate: Took 0.020980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-20.48.27:102][  0]LogSlate: Took 0.037027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.07.27-20.48.27:113][  0]LogSlate: Took 0.008723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.27-20.48.27:136][  0]LogSlate: Took 0.008812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.27-20.48.27:519][  0]LogRenderer: Reallocating scene render targets to support 828x372 NumSamples 1 (Frame:1).
+[2017.07.27-20.48.27:816][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.07.27-20.48.27:950][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0119 seconds. Added 1 classes and 2 folders.
+[2017.07.27-20.48.27:950][  0]LogLoad: (Engine Initialization) Total time: 161.44 seconds
+[2017.07.27-20.48.27:950][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
+[2017.07.27-20.48.27:950][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.27-20.48.27:950][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.27-20.48.27:973][  0]LogOcInput: OculusInput pre-init called
+[2017.07.27-20.48.27:973][  0]LogHMD: Starting GearVRController plugin
+[2017.07.27-20.48.28:003][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.27-20.48.28:029][  0]LogSlate: Took 0.006926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-20.48.28:198][  2]LogAssetRegistry: Asset discovery search completed in 37.4153 seconds
+[2017.07.27-20.48.28:204][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.27-20.48.28:204][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
+[2017.07.27-20.48.58:096][576]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-20.48.58:477][576]LogAIModule: Creating AISystem for world Base_Character
+[2017.07.27-20.48.58:525][576]Cmd: MAP LOAD FILE="D:/UnrealStudy/ArenaBattle/Content/Base_Character.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.27-20.48.58:525][576]LightingResults: New page: 라이팅 빌드
+[2017.07.27-20.48.58:527][576]LoadErrors: New page: 맵 로드중: Base_Character.umap
+[2017.07.27-20.48.58:527][576]MapCheck: New page: 맵 체크
+[2017.07.27-20.48.58:527][576]LightingResults: New page: 라이팅 빌드
+[2017.07.27-20.48.58:559][576]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.27-20.48.58:624][576]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.27-20.48.58:725][576]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 100.976ms.
+[2017.07.27-20.48.58:726][576]LogFileHelpers: Loading map 'Base_Character' took 0.203
+[2017.07.27-20.49.01:526][698]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.07.27-20.49.01:982][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-20.49.01:990][698]PIE: New page: PIE 세션: Base_Character (2017. 7. 28. 오후 2:49:01)
+[2017.07.27-20.49.01:990][698]ArenaBattle:Warning: UABGameInstance::UABGameInstance(20) Constructor Start!
+[2017.07.27-20.49.01:990][698]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.49.01:990][698]ArenaBattle:Warning: UABGameInstance::UABGameInstance(27) Constructor End!
+[2017.07.27-20.49.01:990][698]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Base_Character
+[2017.07.27-20.49.01:995][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005255s)
+[2017.07.27-20.49.01:997][698]LogAIModule: Creating AISystem for world Base_Character
+[2017.07.27-20.49.01:997][698]LogPlayLevel: PIE: World Init took: (0.001695s)
+[2017.07.27-20.49.01:998][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Base_Character.Base_Character to /Game/UEDPIE_0_Base_Character.Base_Character (0.007406s)
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Init(34)
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(58) ClassInfo1 is same with ClassInfo2.
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(67) Field : Host, Type : StrProperty
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(72) Value = localhost:8000
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(67) Field : URI, Type : StrProperty
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(72) Value = /
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(67) Field : TokenCompleteDelegate, Type : MulticastDelegateProperty
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(80) Function = RequestToken
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(95) DefaultSubobject : WebConnection
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(96) Outer of DefaultSubobject : ABGameInstance
+[2017.07.27-20.49.02:030][698]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.49.02:030][698]ArenaBattle:Warning: UABGameInstance::Search(102) Outer of NewObject : ABGameInstance
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : GameplayDebuggerPlayerManager_0
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : ABPawn1
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Body
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Mesh
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Arrow
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : SpringArm
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Camera
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Movement
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : Brush_1
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : BrushComponent0
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : DefaultPhysicsVolume_0
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : BrushComponent0
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : InstancedFoliageActor_0
+[2017.07.27-20.49.02:031][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : RootComponent0
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : Floor
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : StaticMeshComponent0
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : AtmosphericFog_1
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Sprite
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : AtmosphericFogComponent0
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : ArrowComponent0
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : WorldSettings_1
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : LightSource
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : LightComponent0
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : ArrowComponent0
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : AbstractNavData-Default
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : PlayerStart
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : CollisionCapsule
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Sprite
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Sprite2
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Arrow
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(108) Actor : SkySphere
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Sky Sphere mesh
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(113)  -- Component : Base
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(123) StaticMeshActor : Floor
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(137) WebConnection Object Host : localhost:8000
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(137) WebConnection Object Host : localhost:8000
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(137) WebConnection Object Host : localhost
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::Search(137) WebConnection Object Host : 127.0.0.1
+[2017.07.27-20.49.02:032][698]WebConnection:Warning: Request Token Call!
+[2017.07.27-20.49.02:032][698]ArenaBattle:Warning: UABGameInstance::RequestTokenComplete(48) Token : 0LCJydGkiOiI2a3NjVE9pTUNESVZWM05qVTIyUnlTIn0.VJyMOicM
+[2017.07.27-20.49.02:032][698]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.49.02:033][698]LogTemp:Warning: Archive is Saving State
+[2017.07.27-20.49.02:038][698]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.49.02:038][698]LogTemp:Warning: Archive is Loading State
+[2017.07.27-20.49.02:038][698]ArenaBattle:Warning: UABGameInstance::SerializationAndPackaging(195) WebConnection From File : Host 127.0.0.7, URI /
+[2017.07.27-20.49.02:038][698]WebConnection:Warning: WebConnection Constructor Call!
+[2017.07.27-20.49.02:049][698]LogSavePackage: Save=10.46ms
+[2017.07.27-20.49.02:049][698]LogSavePackage: Moving 'D:/UnrealStudy/ArenaBattle/Saved/SavedWebConnection7461F80349697D1596A47C956793D1EF.tmp' to 'D:/UnrealStudy/ArenaBattle/Saved/SavedWebConnection.uasset'
+[2017.07.27-20.49.02:051][698]LogSavePackage:Display: Finished SavePackage D:/UnrealStudy/ArenaBattle/Saved/SavedWebConnection.uasset
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SerializationAndPackaging(221) WebConnection From File : Host 127.0.0.7, URI /
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SmartPointer(232) *** 1 단계 ***
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SmartPointer(234) 집을 새로 지었습니다. 내 집 크기 : 10
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SmartPointer(238) 내가 직접 집을 철거했습니다. 집 크기 : 1417309736
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SmartPointer(243) *** 2 단계 ***
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SmartPointer(246) 집을 다시 지었습니다. 집 크기 : 100
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SmartPointer(252) 이 집은 제 단독 소유 주택입니다. 내 집 크기 : 100
+[2017.07.27-20.49.02:052][698]ArenaBattle:Warning: UABGameInstance::SmartPointer(262) 친구에게 집을 팔았습니다. 친구 집 크기 : 100
+[2017.07.27-20.49.04:044][698]LogCrashTracker: 
+
+
+[2017.07.27-20.49.04:044][698]LogCrashTracker: 
+
+
+[2017.07.27-20.49.04:044][698]LogWindows:Error: === Critical error: ===
+[2017.07.27-20.49.04:044][698]LogWindows:Error: 
+[2017.07.27-20.49.04:044][698]LogWindows:Error: Fatal error!
+[2017.07.27-20.49.04:044][698]LogWindows:Error: 
+[2017.07.27-20.49.04:045][698]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2017.07.27-20.49.04:045][698]LogWindows:Error: 
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor-ArenaBattle.dll!UABGameInstance::SmartPointer() [d:\unrealstudy\arenabattle\source\arenabattle\abgameinstance.cpp:264]
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor-Engine.dll!0x00000000B57DE931
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000B37F97FB
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000B382688E
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000B3842354
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000B3312DC8
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000B3B38D76
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor.exe!0x000000004BECE2B2
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor.exe!0x000000004BEBF0B0
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor.exe!0x000000004BEBF12A
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor.exe!0x000000004BED0CF9
+[2017.07.27-20.49.04:045][698]LogWindows:Error: UE4Editor.exe!0x000000004BED25F7
+[2017.07.27-20.49.04:045][698]LogWindows:Error: KERNEL32.DLL!0x00000000E3E82774
+[2017.07.27-20.49.04:045][698]LogWindows:Error: ntdll.dll!0x00000000E6610D51
+[2017.07.27-20.49.04:045][698]LogWindows:Error: ntdll.dll!0x00000000E6610D51
+[2017.07.27-20.49.04:045][698]LogWindows:Error: 
+[2017.07.27-20.49.04:077][698]LogExit: Executing StaticShutdownAfterError
+[2017.07.27-20.49.04:088][698]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.07.27-20.49.04:089][698]Log file closed, 07/28/17 05:49:04

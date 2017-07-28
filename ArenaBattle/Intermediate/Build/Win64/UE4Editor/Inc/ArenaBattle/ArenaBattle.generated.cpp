@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCode1ArenaBattle() {}
 	WEBSERVICE_API class UClass* Z_Construct_UClass_UWebConnection_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FStringAssetReference();
+	ENGINE_API class UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
@@ -26,8 +27,13 @@ void EmptyLinkFunctionForGeneratedCode1ArenaBattle() {}
 	ENGINE_API class UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 
+	ARENABATTLE_API class UFunction* Z_Construct_UFunction_UABGameInstance_CheckUObjectAlive();
+	ARENABATTLE_API class UFunction* Z_Construct_UFunction_UABGameInstance_RequestTokenComplete();
 	ARENABATTLE_API class UClass* Z_Construct_UClass_UABGameInstance_NoRegister();
 	ARENABATTLE_API class UClass* Z_Construct_UClass_UABGameInstance();
+	ARENABATTLE_API class UFunction* Z_Construct_UFunction_AABPawn_CharacterMeshDeferred();
+	ARENABATTLE_API class UFunction* Z_Construct_UFunction_AABPawn_LeftRightInput();
+	ARENABATTLE_API class UFunction* Z_Construct_UFunction_AABPawn_UpDownInput();
 	ARENABATTLE_API class UClass* Z_Construct_UClass_AABPawn_NoRegister();
 	ARENABATTLE_API class UClass* Z_Construct_UClass_AABPawn();
 	ARENABATTLE_API class UFunction* Z_Construct_UFunction_AWeapon_GetDamage();
@@ -36,6 +42,50 @@ void EmptyLinkFunctionForGeneratedCode1ArenaBattle() {}
 	ARENABATTLE_API class UPackage* Z_Construct_UPackage__Script_ArenaBattle();
 	void UABGameInstance::StaticRegisterNativesUABGameInstance()
 	{
+		UClass* Class = UABGameInstance::StaticClass();
+		static const TNameNativePtrPair<ANSICHAR> AnsiFuncs[] = {
+			{ "CheckUObjectAlive", (Native)&UABGameInstance::execCheckUObjectAlive },
+			{ "RequestTokenComplete", (Native)&UABGameInstance::execRequestTokenComplete },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, AnsiFuncs, 2);
+	}
+	UFunction* Z_Construct_UFunction_UABGameInstance_CheckUObjectAlive()
+	{
+		UObject* Outer=Z_Construct_UClass_UABGameInstance();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("CheckUObjectAlive"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x00020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ABGameInstance.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_UABGameInstance_RequestTokenComplete()
+	{
+		struct ABGameInstance_eventRequestTokenComplete_Parms
+		{
+			FString Token;
+		};
+		UObject* Outer=Z_Construct_UClass_UABGameInstance();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("RequestTokenComplete"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x00020401, 65535, sizeof(ABGameInstance_eventRequestTokenComplete_Parms));
+			UProperty* NewProp_Token = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Token"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(Token, ABGameInstance_eventRequestTokenComplete_Parms), 0x0010000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ABGameInstance.h"));
+			MetaData->SetValue(NewProp_Token, TEXT("NativeConst"), TEXT(""));
+#endif
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UABGameInstance_NoRegister()
 	{
@@ -54,11 +104,17 @@ void EmptyLinkFunctionForGeneratedCode1ArenaBattle() {}
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20100088;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_UABGameInstance_CheckUObjectAlive());
+				OuterClass->LinkChild(Z_Construct_UFunction_UABGameInstance_RequestTokenComplete());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_WebConnectionNew3 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WebConnectionNew3"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(WebConnectionNew3, UABGameInstance), 0x0010000000000000, Z_Construct_UClass_UWebConnection_NoRegister());
+				UProperty* NewProp_WebConnectionNew2 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WebConnectionNew2"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(WebConnectionNew2, UABGameInstance), 0x0010000000000000, Z_Construct_UClass_UWebConnection_NoRegister());
 				UProperty* NewProp_WebConnectionNew = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WebConnectionNew"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(WebConnectionNew, UABGameInstance), 0x0010000000000000, Z_Construct_UClass_UWebConnection_NoRegister());
-				UProperty* NewProp_WebConnection = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WebConnection"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(WebConnection, UABGameInstance), 0x0010000000000000, Z_Construct_UClass_UWebConnection_NoRegister());
+				UProperty* NewProp_WebConnection = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WebConnection"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(WebConnection, UABGameInstance), 0x0010000000020015, Z_Construct_UClass_UWebConnection_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UABGameInstance_CheckUObjectAlive(), "CheckUObjectAlive"); // 2087794395
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UABGameInstance_RequestTokenComplete(), "RequestTokenComplete"); // 4023339109
 				static TCppClassTypeInfo<TCppClassTypeTraits<UABGameInstance> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -66,7 +122,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ABGameInstance.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ABGameInstance.h"));
+				MetaData->SetValue(NewProp_WebConnectionNew3, TEXT("ModuleRelativePath"), TEXT("ABGameInstance.h"));
+				MetaData->SetValue(NewProp_WebConnectionNew2, TEXT("ModuleRelativePath"), TEXT("ABGameInstance.h"));
 				MetaData->SetValue(NewProp_WebConnectionNew, TEXT("ModuleRelativePath"), TEXT("ABGameInstance.h"));
+				MetaData->SetValue(NewProp_WebConnection, TEXT("Category"), TEXT("WebService"));
 				MetaData->SetValue(NewProp_WebConnection, TEXT("ModuleRelativePath"), TEXT("ABGameInstance.h"));
 #endif
 			}
@@ -74,11 +133,76 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABGameInstance, 2346761646);
+	IMPLEMENT_CLASS(UABGameInstance, 3982171874);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UABGameInstance(Z_Construct_UClass_UABGameInstance, &UABGameInstance::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UABGameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UABGameInstance);
 	void AABPawn::StaticRegisterNativesAABPawn()
 	{
+		UClass* Class = AABPawn::StaticClass();
+		static const TNameNativePtrPair<ANSICHAR> AnsiFuncs[] = {
+			{ "CharacterMeshDeferred", (Native)&AABPawn::execCharacterMeshDeferred },
+			{ "LeftRightInput", (Native)&AABPawn::execLeftRightInput },
+			{ "UpDownInput", (Native)&AABPawn::execUpDownInput },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, AnsiFuncs, 3);
+	}
+	UFunction* Z_Construct_UFunction_AABPawn_CharacterMeshDeferred()
+	{
+		UObject* Outer=Z_Construct_UClass_AABPawn();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("CharacterMeshDeferred"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x00020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ABPawn.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AABPawn_LeftRightInput()
+	{
+		struct ABPawn_eventLeftRightInput_Parms
+		{
+			float NewInputVal;
+		};
+		UObject* Outer=Z_Construct_UClass_AABPawn();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("LeftRightInput"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x00040401, 65535, sizeof(ABPawn_eventLeftRightInput_Parms));
+			UProperty* NewProp_NewInputVal = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NewInputVal"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(NewInputVal, ABPawn_eventLeftRightInput_Parms), 0x0010000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ABPawn.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AABPawn_UpDownInput()
+	{
+		struct ABPawn_eventUpDownInput_Parms
+		{
+			float NewInputVal;
+		};
+		UObject* Outer=Z_Construct_UClass_AABPawn();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("UpDownInput"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x00040401, 65535, sizeof(ABPawn_eventUpDownInput_Parms));
+			UProperty* NewProp_NewInputVal = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NewInputVal"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(NewInputVal, ABPawn_eventUpDownInput_Parms), 0x0010000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ABPawn.h"));
+#endif
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AABPawn_NoRegister()
 	{
@@ -97,18 +221,25 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900084;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_AABPawn_CharacterMeshDeferred());
+				OuterClass->LinkChild(Z_Construct_UFunction_AABPawn_LeftRightInput());
+				OuterClass->LinkChild(Z_Construct_UFunction_AABPawn_UpDownInput());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_CharacterAssets = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CharacterAssets"), RF_Public|RF_Transient|RF_MarkAsNative) UArrayProperty(CPP_PROPERTY_BASE(CharacterAssets, AABPawn), 0x0040000000004000);
 				UProperty* NewProp_CharacterAssets_Inner = new(EC_InternalUseOnlyConstructor, NewProp_CharacterAssets, TEXT("CharacterAssets"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(FObjectInitializer(), EC_CppProperty, 0, 0x0000000000004000, Z_Construct_UScriptStruct_FStringAssetReference());
 				UProperty* NewProp_CurrentHP = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CurrentHP"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(CurrentHP, AABPawn), 0x0010000000000805);
 				UProperty* NewProp_MaxHP = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MaxHP"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(MaxHP, AABPawn), 0x0010000000014005);
+				UProperty* NewProp_Movement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Movement"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(Movement, AABPawn), 0x00100000000a001d, Z_Construct_UClass_UFloatingPawnMovement_NoRegister());
 				UProperty* NewProp_Camera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Camera"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(Camera, AABPawn), 0x00100000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
 				UProperty* NewProp_SpringArm = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("SpringArm"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(SpringArm, AABPawn), 0x00100000000a001d, Z_Construct_UClass_USpringArmComponent_NoRegister());
 				UProperty* NewProp_Arrow = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Arrow"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(Arrow, AABPawn), 0x00100000000a001d, Z_Construct_UClass_UArrowComponent_NoRegister());
 				UProperty* NewProp_Mesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Mesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(Mesh, AABPawn), 0x00100000000a001d, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
 				UProperty* NewProp_Body = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Body"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(Body, AABPawn), 0x00100000000a001d, Z_Construct_UClass_UCapsuleComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AABPawn_CharacterMeshDeferred(), "CharacterMeshDeferred"); // 1302900137
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AABPawn_LeftRightInput(), "LeftRightInput"); // 3331782147
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AABPawn_UpDownInput(), "UpDownInput"); // 4062717104
 				OuterClass->ClassConfigName = FName(TEXT("Game"));
 				static TCppClassTypeInfo<TCppClassTypeTraits<AABPawn> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
@@ -127,6 +258,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_MaxHP, TEXT("Category"), TEXT("Stat"));
 				MetaData->SetValue(NewProp_MaxHP, TEXT("ModuleRelativePath"), TEXT("ABPawn.h"));
 				MetaData->SetValue(NewProp_MaxHP, TEXT("ToolTip"), TEXT("\xd3f0\xb4e4\xc774 \xacf5\xd1b5\xc801\xc778 \xac12\xc744 \xac00\xc9c4\xb2e4."));
+				MetaData->SetValue(NewProp_Movement, TEXT("Category"), TEXT("Movement"));
+				MetaData->SetValue(NewProp_Movement, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_Movement, TEXT("ModuleRelativePath"), TEXT("ABPawn.h"));
+				MetaData->SetValue(NewProp_Movement, TEXT("ToolTip"), TEXT("\xce90\xb9ad\xd130\xb97c \xc6c0\xc9c1\xc774\xae30 \xc704\xd55c \xcef4\xd3ec\xb10c\xd2b8"));
 				MetaData->SetValue(NewProp_Camera, TEXT("Category"), TEXT("Camera"));
 				MetaData->SetValue(NewProp_Camera, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_Camera, TEXT("ModuleRelativePath"), TEXT("ABPawn.h"));
@@ -153,7 +288,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPawn, 3656361945);
+	IMPLEMENT_CLASS(AABPawn, 1353310210);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABPawn(Z_Construct_UClass_AABPawn, &AABPawn::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABPawn);
 	void AWeapon::StaticRegisterNativesAWeapon()
@@ -243,8 +378,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/ArenaBattle")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x905145E7;
-			Guid.B = 0xF40A08C2;
+			Guid.A = 0x25FA17AA;
+			Guid.B = 0x91A0C7C1;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

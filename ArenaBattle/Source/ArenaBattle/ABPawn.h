@@ -48,6 +48,10 @@ public:
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Camera")
 	class UCameraComponent* Camera;
 
+	// 캐릭터를 움직이기 위한 컴포넌트
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Movement")
+	class UFloatingPawnMovement* Movement;
+
 	// 폰들이 공통적인 값을 가진다.
 	UPROPERTY(config, BlueprintReadWrite, EditDefaultsOnly, Category = "Stat")
 	float MaxHP;
@@ -56,10 +60,25 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditInstanceOnly, Category = "Stat")
 	float CurrentHP;
 
+	UFUNCTION()
+	void CharacterMeshDeferred();
+	//FStreamableDelegate StreamableDelegate;
 
 private:
+	int32 NewIndex;
+
+
 	// FStringAssetReference : 에셋 정보 / 소프트 레퍼런싱
 	UPROPERTY(config)
 	TArray<FStringAssetReference> CharacterAssets;
+
+	float CurrentLeftRightVal;
+	float CurrentUpDownVal;
+
+	UFUNCTION()
+	void UpDownInput(float NewInputVal);
+
+	UFUNCTION()
+	void LeftRightInput(float NewInputVal);
 
 };
